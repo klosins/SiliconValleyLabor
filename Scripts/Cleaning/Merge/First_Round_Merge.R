@@ -21,18 +21,20 @@ library(here)
 setwd(here::here("RawData"))
 
 #=========
-# Importing data
+# 0. 3 Importing data
 #=========
-patent <- fread("inventor.csv")
+patent <- fread("invpat_full_disambiguation.csv")
+colnames(patent) <- tolower(colnames(patent)) # make all the columns lower case
+
 infutor <- fread("DI.csv")
 
-# since this is practice case 
-
-patent <- patent[last2 == "DI",]
-
 #========================
-# Section 1: Making consistent column names 
+# Section 1:  Cleaning patent and infutor data  
 #========================
+
+#=========
+# 1.1 Making consistent column names
+#=========
 
 patent %>% rename(add_city = city,
                   add_state = state, 
@@ -41,14 +43,33 @@ patent %>% rename(add_city = city,
                   name_last = lastname) -> patent
 setDT(patent)
 
-
-#========================
-# Section 2: Cleaning patent data  
-#========================
+#=========
+# 1.2 filtering patent data
+#=========
 
 # remove people that do not live in the US, we will not have a match for them 
-
 patent <- patent[country == "US",]
+
+
+#=========
+# 1.3 fix the date variables 
+#=========
+
+
+infutor[, addmonth_beg := as.Date(paste(addmonth_beg,"d1",sep=""), format = "%Ym%md%d")]
+infutor[, addmonth_end := as.Date(paste(addmonth_end,"d1",sep=""), format = "%Ym%md%d")]
+infutor[, first_seen := as.Date(paste(first_seen,"d1",sep=""), format = "%Ym%md%d")]
+infutor[, last_seen := as.Date(paste(last_seen,"d1",sep=""), format = "%Ym%md%d")]
+
+#========================
+# Section 2: Making new variables  
+#========================
+
+patent[, last2 := substr(name_last, start = 1, stop = 2)]
+
+
+# since this is the test case # FIXME remove when testing is done
+patent <- patent[last2 == "DI",]
 
 #========================
 # Section 3: Removing duplicate information
@@ -58,7 +79,11 @@ patent <- patent[country == "US",]
 # Like if a person has multiple patents, but live in the same place for them, 
 # we dont need all that data for the merging exersize. 
 
-unique(patent[,.(name_first, name_last, add_city, add_state)]) -> patent
+unique(patent[,.(name_first,
+                 name_last,
+                 add_city,
+                 add_state,
+                 unique_inventor_id)]) -> patent
 
 # in the DI case this removes 
 #========================
@@ -71,10 +96,6 @@ patent_infutor_merge <- merge(patent, infutor,
 # returns all the rows from the left table, filling in matched columns (or NA) from the right table
 # if there are multiple rows from the right table match to a row in the left table, then new rows 
 # will be added to the left. 
-
-
-
-
 
 
 
