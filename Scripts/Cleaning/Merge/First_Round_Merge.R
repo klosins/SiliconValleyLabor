@@ -55,7 +55,6 @@ patent <- patent[country == "US",]
 # 1.3 fix the date variables 
 #=========
 
-
 infutor[, addmonth_beg := as.Date(paste(addmonth_beg,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, addmonth_end := as.Date(paste(addmonth_end,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, first_seen := as.Date(paste(first_seen,"d1",sep=""), format = "%Ym%md%d")]
@@ -96,6 +95,25 @@ patent_infutor_merge <- merge(patent, infutor,
 # returns all the rows from the left table, filling in matched columns (or NA) from the right table
 # if there are multiple rows from the right table match to a row in the left table, then new rows 
 # will be added to the left. 
+
+
+#========================
+# Section 5: Merge stats
+#========================
+
+patent_infutor_merge_pairs <- unique(patent_infutor_merge[,.(unique_inventor_id, pid)])
+patent_infutor_merge_pairs <- patent_infutor_merge_pairs[!is.na(pid), ]
+
+
+#=========
+# How many matches does one inventor get 
+#=========
+
+patent_infutor_merge_pairs_inventor <- patent_infutor_merge_pairs[,.N,.(unique_inventor_id)]
+
+sum(patent_infutor_merge_pairs_inventor$N == 1)
+
+
 
 
 
