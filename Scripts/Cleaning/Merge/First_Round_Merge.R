@@ -26,7 +26,7 @@ setwd(here::here("RawData"))
 patent <- fread("invpat_full_disambiguation.csv")
 colnames(patent) <- tolower(colnames(patent)) # make all the columns lower case
 
-infutor <- fread("DI.csv")
+infutor <- fread("full_DI.csv")
 
 #========================
 # Section 1:  Cleaning patent and infutor data  
@@ -64,7 +64,12 @@ infutor[, last_seen := as.Date(paste(last_seen,"d1",sep=""), format = "%Ym%md%d"
 # Section 2: Making new variables  
 #========================
 
-patent[, last2 := substr(name_last, start = 1, stop = 2)]
+patent[, last2 := substr(name_last, start = 1, stop = 2)] # first two letters of last name
+patent[, first2 := substr(name_first, start = 1, stop = 2)] # last two letters of last name
+patent[, name_first_clean := gsub("([A-Za-z]+).*", "\\1", name_first)] # remove the weird middle initals
+
+infutor[, first2 := substr(name_first, start = 1, stop = 2)] # last two letters of last name
+infutor[, name_first_clean := gsub("([A-Za-z]+).*", "\\1", name_first)] # remove the weird middle initals
 
 
 # since this is the test case # FIXME remove when testing is done
@@ -79,29 +84,31 @@ patent <- patent[last2 == "DI",]
 # we dont need all that data for the merging exersize. 
 
 unique(patent[,.(name_first,
+                 name_first_clean,
+                 first2,
                  name_last,
                  add_city,
                  add_state,
-                 unique_inventor_id)]) -> patent
+                 unique_inventor_id)]) -> unique_patent
 
 # in the DI case this removes 
 #========================
 # Section 4: Merging
 #========================
 
-patent_infutor_merge <- merge(patent, infutor, 
-                              all.x=TRUE, by = c("name_last", "add_state"),
+patent_infutor_merge <- merge(unique_patent, infutor, 
+                              all.x=TRUE, by = c("name_last", "add_state", "first2"),
                               allow.cartesian=TRUE) # doing a LEFT OUTER JOIN
 # returns all the rows from the left table, filling in matched columns (or NA) from the right table
 # if there are multiple rows from the right table match to a row in the left table, then new rows 
 # will be added to the left. 
-
 
 #========================
 # Section 5: Merge stats
 #========================
 
 patent_infutor_merge_pairs <- unique(patent_infutor_merge[,.(unique_inventor_id, pid)])
+sum(is.na(patent_infutor_merge_pairs$pid))
 patent_infutor_merge_pairs <- patent_infutor_merge_pairs[!is.na(pid), ]
 
 
@@ -113,6 +120,24 @@ patent_infutor_merge_pairs_inventor <- patent_infutor_merge_pairs[,.N,.(unique_i
 
 sum(patent_infutor_merge_pairs_inventor$N == 1)
 
+
+#=========
+# People who get some matches
+#=========
+
+
+patent_1 <- patent_infutor_merge_pairs_inventor[N == 1,]
+patent_2 <- patent_infutor_merge_pairs_inventor[N == 2,]
+
+patent_1 <- merge(patent_1, patent_infutor_merge, by = "unique_inventor_id")
+patent_2 <- merge(patent_2, patent_infutor_merge, by = "unique_inventor_id")
+
+mean(patent_1$add_city.x == patent_1$add_city.y, na.rm = T)
+mean(patent_1$name_first_clean.x == patent_1$name_first_clean.y, na.rm = T)
+
+patent_2[, same_first := (name_first_clean.x == name_first_clean.y)]
+
+test <- patent_2[same_first == TRUE,]
 
 
 
