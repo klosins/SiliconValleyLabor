@@ -14,6 +14,7 @@
 library(data.table)
 library(dplyr)
 library(here)
+library(lubridate)
 
 #=========
 # 0.2 Set working directory 
@@ -25,7 +26,6 @@ setwd(here::here("RawData"))
 #=========
 patent <- fread("invpat_full_disambiguation.csv")
 colnames(patent) <- tolower(colnames(patent)) # make all the columns lower case
-
 infutor <- fread("full_DI.csv")
 
 #========================
@@ -43,22 +43,37 @@ patent %>% rename(add_city = city,
                   name_last = lastname) -> patent
 setDT(patent)
 
-#=========
-# 1.2 filtering patent data
-#=========
-
-# remove people that do not live in the US, we will not have a match for them 
-patent <- patent[country == "US",]
-
 
 #=========
-# 1.3 fix the date variables 
+# 1.2 fix the date variables 
 #=========
 
 infutor[, addmonth_beg := as.Date(paste(addmonth_beg,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, addmonth_end := as.Date(paste(addmonth_end,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, first_seen := as.Date(paste(first_seen,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, last_seen := as.Date(paste(last_seen,"d1",sep=""), format = "%Ym%md%d")]
+
+
+#=========
+# 1.3 filtering data
+#=========
+
+#====
+# patent data
+#====
+
+# remove people that do not live in the US, we will not have a match for them 
+patent <- patent[country == "US",]
+# remove observations before 2000
+patent <- patent[appyear >= 2000,]
+
+#====
+# infutor data
+#====
+# remove observations before 2000
+infutor[, addmonth_end_year := lubridate::year(addmonth_end)]
+infutor <- infutor[addmonth_end_year >= 2000, ]
+
 
 #========================
 # Section 2: Making new variables  
@@ -91,7 +106,6 @@ unique(patent[,.(name_first,
                  add_state,
                  unique_inventor_id)]) -> unique_patent
 
-# in the DI case this removes 
 #========================
 # Section 4: Merging
 #========================
