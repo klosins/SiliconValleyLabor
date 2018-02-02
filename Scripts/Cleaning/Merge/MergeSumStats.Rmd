@@ -91,6 +91,9 @@ infutor <- infutor[addmonth_end_year >= 2000, ]
 #========================
 # Section 2: Making new variables  
 #========================
+#=======
+# 2.1: letter vars based off first and last name
+#=======
 patent[, last2 := substr(name_last, start = 1, stop = 2)] # first two letters of last name
 patent[, first2 := substr(name_first, start = 1, stop = 2)] # first two letters of first name
 patent[, first3 := substr(name_first, start = 1, stop = 3)] # first three letters of first name
@@ -102,7 +105,22 @@ infutor[, name_first_clean := gsub("([A-Za-z]+).*", "\\1", name_first)] # remove
 
 # since this is the test case # FIXME remove when testing is done
 patent <- patent[last2 == "DI",]
+
+#=======
+# 2.2: creating new PID vars 
+#=======
+infutor_base <- infutor[,.(pid, add_id, name_first, name_last, dob)]
+infutor_base <- unique(infutor_base[!is.na(dob),])
+infutor_base_new <- infutor_base[,pid_new := paste0(pid, collapse = "-"),
+                                        .(add_id, name_first, name_last, dob)]
+infutor_base_new_ids <- unique(infutor_base_new[,.(pid, pid_new)]) 
+# some pid are matched to many pid_new values, where some of the pid_new values are subsets, 
+# so we fix this below # do this due to people move, see pid == 135609
+infutor_base_new_ids <- unique(infutor_base_new_ids[,pid_new := max(pid_new), .(pid)])
+infutor<- merge(infutor, infutor_base_new_ids, by = "pid", all.x = TRUE)
+infutor <- infutor[is.na(pid_new), pid_new := as.character(pid)]
 ```
+
 
 
 ```{r}
@@ -145,7 +163,7 @@ patent_infutor_merge <- merge(unique_patent, infutor,
 # Section 5: Merge stats
 #========================
 
-patent_infutor_merge_pairs <- unique(patent_infutor_merge[,.(unique_inventor_id, pid)])
+patent_infutor_merge_pairs <- unique(patent_infutor_merge[,.(unique_inventor_id, pid_new)])
 ```
 
 
@@ -158,7 +176,7 @@ We find that doing this merge we get `r sum(is.na(patent_infutor_merge_pairs$pid
 #=========
 # How many matches does one inventor get 
 #=========
-patent_infutor_merge_pairs_no_na <- patent_infutor_merge_pairs[!is.na(pid), ]
+patent_infutor_merge_pairs_no_na <- patent_infutor_merge_pairs[!is.na(pid_new), ]
 
 patent_infutor_merge_pairs_inventor <- patent_infutor_merge_pairs_no_na[,.N,.(unique_inventor_id)]
 ```
@@ -170,10 +188,7 @@ patent_one_match <- patent_infutor_merge_pairs_inventor[N == 1,]
 patent_one_match <- merge(patent_one_match,
                            patent_infutor_merge,
                            by = "unique_inventor_id")
-patent_one_match <- patent_one_match[!is.na(pid),]
-
-
-
+patent_one_match <- patent_one_match[!is.na(pid_new),]
 ```
 
 
@@ -235,7 +250,7 @@ print(xtable(infutor[pid %in% c(304329969, 68862832), .(pid,  dob, add_id, add, 
 
 ```{r}
 with_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x, name_first_clean.y,
-                                                                              pid,add, add_city, name_last, add_state, add_id)])
+                                                                              pid_new,add, add_city, name_last, add_state, add_id)])
 no_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x, name_first_clean.y,add, add_city, name_last, add_state, add_id)])
 
 ```
@@ -243,15 +258,27 @@ no_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x
 
 
 ```{r}
-problems <- unique(with_pid[,.(pid, dob, name_first_clean.x, name_last, add_id)])
+problems <- unique(with_pid[,.(pid_new, dob, name_first_clean.x, name_last, add_id)])
 problems <- with_pid[, new_id := paste0(dob, name_first_clean.x, name_last, add_id)]
-problems <- unique(problems[, .(pid, new_id)])
+problems <- unique(problems[, .(pid_new, new_id)])
 sum_problems <- problems[,.N, .(new_id)]
 ```
 
 
 If we count the number of people that have the same date of bith, name, and exact address, but different PIDs we end up with `r sum(sum_problems$N > 1)` people.
 
+
+
+# Checking Matches 
+
+## Looking at year 
+
+
+```{r}
+
+#patent_did_merge <- merge(patent_infutor_merge[pid_new, ] )
+
+```
 
 
 
