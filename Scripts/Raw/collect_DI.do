@@ -22,3 +22,17 @@ foreach state in `subfolders' {
 		cp "`inpath'/`state'/DI.csv" "`outpath'/`state'/DI.csv"	
 	} 
 }
+
+
+clear
+foreach state in `subfolders' { 
+
+ preserve
+ insheet using "`outpath'/`state'/DI.csv", clear
+ save temp, replace
+ restore
+ append using temp
+}
+erase temp.dta
+tostring dob, replace
+export delimited using "/home/zqian/Dropbox/SiliconValleyLabor/Data/DI_Infutor/full_DI_2.csv", replace

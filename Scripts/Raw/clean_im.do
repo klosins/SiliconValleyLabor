@@ -28,9 +28,10 @@ set more off
 
 * convert address histories from text to stata format
 * only need to do this once!
+
 local inpath "/media/zqian/Seagate Backup Plus Drive/infutor_1perc/data/raw"
 local outpath "/media/zqian/Seagate Backup Plus Drive/infutor_1perc/data/dta"
-
+/*
 cap confirmdir "`outpath'"
 if `r(confirmdir)' != 0 {
 	mkdir "`outpath'"
@@ -41,6 +42,13 @@ local files : dir "`inpath'" files "*"  // store all file names in folder
 foreach file in `files' {
 	import delimited "`inpath'/`file'", varnames(nonames) clear 
 	local file: subinstr local file ".txt" "" // remove .txt from macro string
+	
+	quietly {
+	// check if address file exists
+	cap confirm file "`outpath'/`file'.dta"
+	
+	// administer cleaning if address file doesn't exist
+	if _rc != 0 {
 	
 	//rename variables
 	cap ren v1 pid
@@ -219,10 +227,52 @@ foreach file in `files' {
 	}
 	
 	save "`outpath'/`file'.dta", replace
+	}
+	}
+}
+*/
+
+*******************************************************
+* 2. break state files into chunks of 20 million obs
+*******************************************************
+local files : dir "`outpath'" files "*.dta"  // store all file names in folder
+loc maxsize=20000000
+
+foreach file in `files' {
+
+	local file_sub: subinstr local file ".dta" "" // remove .dta from macro string
+	dis "processing: `file_sub'"
+	
+	quietly {
+	use pid using "`outpath'/`file_sub'.dta", clear
+	
+	if _N>`maxsize' {
+		use "`outpath'/`file_sub'.dta", clear
+		gen remainder = mod(_N, `maxsize')
+		loc remainder = remainder[1]
+		drop remainder
+
+		gen numfile = floor(_N/`maxsize')
+		loc numfile = numfile[1]
+		drop numfile
+
+		forvalues i = 1/`numfile' { 
+			savesome using "`outpath'/`file_sub'_`i'.dta" ///
+				if _n>=(`i'-1)*`maxsize'+1 & _n<=`i'*`maxsize', replace
+		}
+
+		loc lastfile = `numfile'+1
+		savesome using "`outpath'/`file_sub'_`lastfile'.dta" ///
+				if _n>=`numfile'*`maxsize'+1 & _n<=`numfile'*`maxsize'+`remainder', replace
+				
+		//delete original file
+		erase "`outpath'/`file_sub'.dta"
+	}
+	} //end quietly
 }
 
 *******************************************************
-* 2. clean name files 
+* 3. clean name files 
 *******************************************************
 local files : dir "`outpath'" files "*.dta"  // store all file names in folder
 
@@ -271,7 +321,7 @@ foreach file in `files' {
 }
 
 *******************************************************
-* 3. clean telephone files 
+* 4. clean telephone files 
 *******************************************************
 local files : dir "`outpath'" files "*.dta"  // store all file names in folder
 
@@ -328,7 +378,7 @@ foreach file in `files' {
 }
 
 *******************************************************
-* 4. clean address files 
+* 5. clean address files 
 *******************************************************
 local files : dir "`outpath'" files "*.dta"  // store all file names in folder
 
