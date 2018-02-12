@@ -1,7 +1,6 @@
 ---
 title: "Merge Sum Stats"
 author: "Sylvia Klosin"
-date: "1/30/2018"
 output: pdf_document
 ---
 
@@ -20,6 +19,7 @@ library(dplyr)
 library(here)
 library(ggplot2)
 library(lubridate)
+library(stringr)
 library(xtable)
 
 #=========
@@ -33,6 +33,15 @@ setwd(here::here("RawData"))
 patent <- fread("invpat_full_disambiguation.csv")
 colnames(patent) <- tolower(colnames(patent)) # make all the columns lower case
 infutor <- fread("full_DI.csv")
+
+#=========
+# 0. 4 Functions
+#=========
+removeWords <- function(str, stopwords) {
+  x <- unlist(strsplit(str, " "))
+  paste(x[!x %in% stopwords], collapse = " ")
+}
+
 ```
 
 
@@ -64,10 +73,16 @@ setDT(patent)
 #=========
 # 1.2 fix the date variables 
 #=========
+# for infutor data 
 infutor[, addmonth_beg := as.Date(paste(addmonth_beg,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, addmonth_end := as.Date(paste(addmonth_end,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, first_seen := as.Date(paste(first_seen,"d1",sep=""), format = "%Ym%md%d")]
 infutor[, last_seen := as.Date(paste(last_seen,"d1",sep=""), format = "%Ym%md%d")]
+
+# for patent data 
+patent[, appdate_clean := as.Date(appdate, "%m/%d/%Y")]
+patent[is.na(appdate_clean), appdate_clean := as.Date(appdate, "%Y-%m-%d")] # since the formating of dates is not consistent
+
 #=========
 # 1.3 filtering data
 #=========
@@ -82,8 +97,8 @@ patent <- patent[appyear >= 2000,]
 # infutor data
 #====
 # remove observations before 2000
-infutor[, addmonth_end_year := lubridate::year(addmonth_end)]
-infutor <- infutor[addmonth_end_year >= 2000, ]
+#infutor[, addmonth_end_year := lubridate::year(addmonth_end)]
+#infutor <- infutor[addmonth_end_year >= 2000, ]
 ```
 
 
@@ -97,12 +112,21 @@ infutor <- infutor[addmonth_end_year >= 2000, ]
 patent[, last2 := substr(name_last, start = 1, stop = 2)] # first two letters of last name
 patent[, first2 := substr(name_first, start = 1, stop = 2)] # first two letters of first name
 patent[, first3 := substr(name_first, start = 1, stop = 3)] # first three letters of first name
+
+# cleaning first and middle name
 patent[, name_first_clean := gsub("([A-Za-z]+).*", "\\1", name_first)] # remove the weird middle initals
+patent[, name_middle_clean := trimws(str_extract(name_first, "\\s\\w"))] # taking the weird middle initals
+
+# cleaning last name 
+bad_name_words <- c("JR", "SR", "II", "III", "IV") # words we dont want in last names
+patent[, name_last_clean := sapply(name_last,removeWords, stopwords = bad_name_words )] # remove the weird middle initals
+
 
 infutor[, first2 := substr(name_first, start = 1, stop = 2)] # first two letters of first name
 infutor[, first3 := substr(name_first, start = 1, stop = 3)] # first three letters of first name
 infutor[, name_first_clean := gsub("([A-Za-z]+).*", "\\1", name_first)] # remove the weird middle initals
-
+infutor[, name_middle_clean := trimws(str_extract(name_first, "\\s\\w"))] # taking the weird middle initals
+infutor[, name_last_clean := sapply(name_last,removeWords, stopwords = bad_name_words )]
 # since this is the test case # FIXME remove when testing is done
 patent <- patent[last2 == "DI",]
 
@@ -135,6 +159,7 @@ unique(patent[,.(name_first,
                  name_first_clean,
                  first3,
                  name_last,
+                 name_last_clean, 
                  add_city,
                  add_state,
                  unique_inventor_id)]) -> unique_patent
@@ -149,7 +174,7 @@ We merge on last name, state, city and the first three letters of the first name
 # Section 4: Merging
 #========================
 patent_infutor_merge <- merge(unique_patent, infutor, 
-                              all.x=TRUE, by = c("name_last", "add_city", "add_state","first3"),
+                              all.x=TRUE, by = c("name_last_clean", "add_city", "add_state","first3"),
                               allow.cartesian=TRUE) # doing a LEFT OUTER JOIN
 # returns all the rows from the left table, filling in matched columns (or NA) from the right table
 # if there are multiple rows from the right table match to a row in the left table, then new rows 
@@ -167,8 +192,6 @@ patent_infutor_merge_pairs <- unique(patent_infutor_merge[,.(unique_inventor_id,
 ```
 
 
-We find that doing this merge we get `r sum(is.na(patent_infutor_merge_pairs$pid))` inventors that do not get any matches in the infutor data. 
-
 ### 1-1 matches 
 
 
@@ -177,9 +200,14 @@ We find that doing this merge we get `r sum(is.na(patent_infutor_merge_pairs$pid
 # How many matches does one inventor get 
 #=========
 patent_infutor_merge_pairs_no_na <- patent_infutor_merge_pairs[!is.na(pid_new), ]
-
 patent_infutor_merge_pairs_inventor <- patent_infutor_merge_pairs_no_na[,.N,.(unique_inventor_id)]
+no_match <- patent[(!(unique_inventor_id %in% patent_infutor_merge_pairs_inventor$unique_inventor_id)),]
+# Weird spellings like Allan inventor 04803506-2 % 5
+# only first letter in first name is a thing in infutor - is a thing DIGIANFILIPPO inventor 04467844-1 %10 
+# werid city 10%
 ```
+
+We find that doing this merge we get `r sum(!(unique(patent$unique_inventor_id) %in% patent_infutor_merge_pairs_inventor$unique_inventor_id))` inventors that do not get any matches in the infutor data. We were able to lower this number a few different ways. 1) we expanded the infutor time period 2) we cleaned last names by removing things like "JR" and "III".
 
 There are `r sum(patent_infutor_merge_pairs_inventor$N == 1)` inventors that get exactly one match. 
 
@@ -192,11 +220,13 @@ patent_one_match <- patent_one_match[!is.na(pid_new),]
 ```
 
 
+
+
 For these 1-1 matches, we get `r sum(patent_one_match$name_first_clean.x == patent_one_match$name_first_clean.y)/nrow(patent_one_match)` have the same clean first name. For those 7% where there is not an exact match, looking at the names show that they seem to be cases where nicknames are used e.g. Fredrick vs Fred.  
 
 ### > 1 matches 
 
-For those with more than one match here is a graph that shows the distbution of the number of matches where we truncate the x-axis at 20. There are  `r sum(patent_infutor_merge_pairs_inventor$N > 20)` people with more than 20 matches. 
+For those with more than one match here is a graph that shows the distribution of the number of matches where we truncate the x-axis at 20. There are  `r sum(patent_infutor_merge_pairs_inventor$N > 20)` people with more than 20 matches. 
 
 
 ```{r, results='asis'}
@@ -237,7 +267,7 @@ Adding in the first names only gives us `r sum(patent_many_match_first_name_pair
 
 # ID problems 
 
-We have a problem with PIDS in the infutor data. There are people that are very clearly the same person but have different PID numbers. One such example is Kenneth Dicker from OH. Need to think of a way to reconcile this. For around 300 inventors, it is the case that only the PID seems wrong, and the birthdays and address are exactly the same. It also seems that for many of the rest it the case that PIDs are wrong, and there is a slight typo somwhere.
+We have a problem with PIDS in the infutor data. There are people that are very clearly the same person but have different PID numbers. One such example is Kenneth Dicker from OH. Need to think of a way to reconcile this. For around 300 inventors, it is the case that only the PID seems wrong, and the birthdays and address are exactly the same. It also seems that for many of the rest it the case that PIDs are wrong, and there is a slight typo somewhere.
 
 ```{r, results='asis'}
 print(xtable(infutor[pid %in% c(304329969, 68862832), .(pid,  dob, add_id, add, add_city, add_state,name_first, name_last 
@@ -250,35 +280,100 @@ print(xtable(infutor[pid %in% c(304329969, 68862832), .(pid,  dob, add_id, add, 
 
 ```{r}
 with_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x, name_first_clean.y,
-                                                                              pid_new,add, add_city, name_last, add_state, add_id)])
-no_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x, name_first_clean.y,add, add_city, name_last, add_state, add_id)])
+                                                                              pid_new,add, add_city, name_last_clean, add_state, add_id)])
+no_pid <- unique(patent_many_match[same_first == TRUE, .(dob, name_first_clean.x, name_first_clean.y,add, add_city, name_last_clean, add_state, add_id)])
 
 ```
 
 
 
 ```{r}
-problems <- unique(with_pid[,.(pid_new, dob, name_first_clean.x, name_last, add_id)])
-problems <- with_pid[, new_id := paste0(dob, name_first_clean.x, name_last, add_id)]
+problems <- unique(with_pid[,.(pid_new, dob, name_first_clean.x, name_last_clean, add_id)])
+problems <- with_pid[, new_id := paste0(dob, name_first_clean.x, name_last_clean, add_id)]
 problems <- unique(problems[, .(pid_new, new_id)])
 sum_problems <- problems[,.N, .(new_id)]
 ```
 
 
-If we count the number of people that have the same date of bith, name, and exact address, but different PIDs we end up with `r sum(sum_problems$N > 1)` people.
+If we count the number of people that have the same date of birth, name, and exact address, but different PIDs we end up with `r sum(sum_problems$N > 1)` people.
 
 
 
-# Checking Matches 
+# Checking Matches 1-1 matches 
 
-## Looking at year 
+```{r}
+
+patent_did_merge <- merge(patent_infutor_merge[pid_new %in% patent_one_match$pid_new,], patent, by = "unique_inventor_id", allow.cartesian = T )
+```
+
+## Looking at dates 
+
+```{r}
+patent_did_merge[, within_date := ((addmonth_beg - 180) < appdate_clean  & appdate_clean < (addmonth_end + 180))]
+```
+
+
+Seeing for the matches, is there at least one "true" year match. That at least one of the year/addresses in the patent data matches a year/address in the infutor data. We find that this is the case in 1593 cases. The flexibility given is 6 months. s
+
+```{r}
+
+patent_did_merge <- patent_did_merge[, .(sum_match = sum(within_date)), .(unique_inventor_id)]
+
+```
+
+
+
+```{r, results='asis'}
+#print(xtable(table(patent_did_merge$sum_match != 0)),comment = FALSE)
+```
+
+
+## Looking at middle name
+
+We still need to find the middle name variable in the infutor data. 
+
+```{r}
+#patent_did_merge[, same_middle_initial := (name_middle_clean.x == name_middle_clean.y)]
+
+```
+
+
+
+# Checking Matches > 1 matches
 
 
 ```{r}
 
-#patent_did_merge <- merge(patent_infutor_merge[pid_new, ] )
+patent_did_merge <- merge(patent[unique_inventor_id %in% patent_many_match$unique_inventor_id,], patent_many_match, by = "unique_inventor_id", allow.cartesian = T )
+```
+
+## Looking at dates 
+
+```{r}
+patent_did_merge[, within_date := ((addmonth_beg - 180) < appdate_clean  & appdate_clean < (addmonth_end + 180))]
+```
+
+
+
+```{r}
+
+patent_did_merge_sum <- patent_did_merge[, .(sum_match = sum(within_date)), .(unique_inventor_id, pid_new)]
 
 ```
+
+
+```{r}
+
+patent_did_merge_sum <- patent_did_merge_sum[sum_match != 0 , ]
+
+patent_did_merge_sum  <- patent_did_merge_sum[,(num_match = .N) ,.(unique_inventor_id)]
+```
+
+When looking at the many matches, filtering by year only gives us `r sum(patent_did_merge_sum == 1)` more 1 on 1 matches. 
+
+
+
+
 
 
 
