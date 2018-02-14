@@ -220,3 +220,22 @@ tab nmatch
 ------------+-----------------------------------
       Total |     47,858      100.00
 */
+
+
+//merge infutor DI with cleaned city names
+import delimited "/home/zqian/Dropbox/SiliconValleyLabor/Data/DI_Infutor/full_DI_2.csv", clear
+
+//standardize cardinal directions
+replace add_city = trim(add_city)
+replace add_city = " " + add_city + " "
+replace add_city = subinstr(add_city, " E ", " EAST ", .) if regex(add_city, " E ")
+replace add_city = subinstr(add_city, " W ", " WEST ", .) if regex(add_city, " W ")
+replace add_city = subinstr(add_city, " S ", " SOUTH ", .) if regex(add_city, " S ")
+replace add_city = subinstr(add_city, " N ", " NORTH ", .) if regex(add_city, " N ")
+replace add_city = trim(add_city)
+
+tostring add_zip, format(%05.0f) replace
+tostring dob, replace
+
+merge m:m add_city add_state add_zip using "~/Dropbox/SiliconValleyLabor/Data/CityName/infutor_DI_cityname_cleaned", assert(1 3) keep(1 3) nogen
+export delimited using "~/Dropbox/SiliconValleyLabor/Data/DI_Infutor/infutor_DI_cityname_cleaned.csv", replace

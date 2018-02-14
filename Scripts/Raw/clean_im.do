@@ -25,13 +25,33 @@ set more off
 *******************************************************
 * 1. convert text files to Stata
 *******************************************************
-
-* convert address histories from text to stata format
-* only need to do this once!
-
-local inpath "/media/zqian/Seagate Backup Plus Drive/infutor_1perc/data/raw"
-local outpath "/media/zqian/Seagate Backup Plus Drive/infutor_1perc/data/dta"
 /*
+//breaks large txt files into chunks
+//only need to do it once
+local inpath "/media/zqian/Seagate Backup Plus Drive/CRD3/raw"
+local outpath "/media/zqian/Seagate Backup Plus Drive/CRD3/raw_chunked"
+local maxsize 5g
+
+cap confirmdir "`outpath'"
+if `r(confirmdir)' != 0 {
+	mkdir "`outpath'"
+}
+
+local files : dir "`inpath'" files "*"  // store all file names in folder
+
+foreach file in `files' {
+	local file_sub: subinstr local file ".txt" "" // remove .txt from macro string
+	chunky using "`inpath'/`file'", ///
+		chunksize(`maxsize') header(include) stub("`outpath'/`file_sub'_part") replace
+	
+}
+*/
+//convert address histories from text to stata format
+//only need to do this once!
+
+local inpath "/media/zqian/Seagate Backup Plus Drive/CRD3/raw_chunked"
+local outpath "/media/zqian/Seagate Backup Plus Drive/CRD3/dta"
+
 cap confirmdir "`outpath'"
 if `r(confirmdir)' != 0 {
 	mkdir "`outpath'"
@@ -227,10 +247,10 @@ foreach file in `files' {
 	}
 	
 	save "`outpath'/`file'.dta", replace
+	erase "`inpath'/`file'.txt"
 	}
 	}
 }
-*/
 
 *******************************************************
 * 2. break state files into chunks of 20 million obs
