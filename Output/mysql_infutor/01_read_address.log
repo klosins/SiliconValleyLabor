@@ -1,0 +1,3189 @@
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,271,274,276,296,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,174,199,245,249,274,276,296,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,221,224,246,249,271,274,296,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,174,199,220,224,249,271,276,295,296,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,174,195,220,224,226,249,251,271,276,296,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,249,274,276,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,149,170,195,199,220,224,276,296,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,199,221,224,226,246,251,271,276,293,296,297,298,301,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,149,170,195,220,249,271,276,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,296,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,124,145,149,196,201,221,224,226,243,246,247,248,249,251,252,253,268,271,272,273,274,276,277,278,293,296,297,298,299,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,199,201,220,221,224,226,243,247,248,251,252,253,268,271,272,273,276,277,278,293,296,297,298,301,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,251,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,174,195,246,249,271,276,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,199,221,245,246,249,251,270,271,273,276,293,297,298,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,199,220,245,246,271,276,296,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,145,174,199,201,221,224,226,246,249,251,268,271,272,273,276,277,278,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (124,145,149,170,174,224,249,271,276,293,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,276,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,224,245,249,271,274,318,320,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (124,145,220,221,246,249,251,271,276,296,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,99,101,118,120,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153,168,171,172,173,174,176,177,178,193,196,197,198,199,201,202,203,218,221,222,223,224,226,227,228,243,246,247,248,249,251,252,253,268,271,272,273,274,276,277,278,293,296,297,298,299,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,174,195,199,220,221,226,245,249,251,271,274,296,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,224,249,271,296,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,174,196,199,220,224,226,243,246,247,248,249,251,252,253,268,271,272,273,274,276,277,278,293,295,296,297,298,301,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,199,224,249,271,274,276,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,249,299,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,249) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,201,220,226,249,251,274,276,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,224,245,251,274,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,224,276,293,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,274,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,199,249,276,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,124,126,145,149,151,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,220,221,222,223,224,226,227,228,243,246,247,248,251,252,253,268,271,272,273,276,277,278,293,296,297,298,299,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,145,149,151,170,171,174,176,196,199,201,221,224,226,249,251,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,174,195,201,221,251,271,276,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,149,174,195,220,276,296,301,320,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,170,195,199,226,246,251,268,271,272,273,277,278,293,297,298,301,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,124,145,149,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,220,221,222,223,224,226,227,228,243,246,247,248,249,251,252,253,268,270,271,272,273,274,276,277,278,293,296,297,298,299,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,145,195,201,221,226,245,246,249,251,271,274,276,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,124,145,149,170,174,199,224,246,251,271,274,276,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (199,224,249,274,295,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (149,195,249,274,276,299,301,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,170,174,195,199,224,249,251,293,296,297,298,301,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,174,195,199,224,246,251,271,276,296,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,195,220,224,226,249,251,276,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,124,145,149,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,220,221,222,223,224,226,227,228,243,246,247,248,249,251,252,253,268,271,272,273,276,277,278,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,199,220,245,271) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,145,149,170,174,220,224,249,251,268,271,272,273,276,277,278,293,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,124,145,151,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,221,222,223,224,226,227,228,243,246,247,248,251,252,253,268,271,272,273,276,277,278,293,297,298,299,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,245,249,270,295,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,149,170,220,249,271,274,276,296,299,301,320,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,274,295,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,174,195,245,270,271,299,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,220,249,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145,195,270,274,299,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,220,224,249,274,296,299,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,270,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,170,195,220,224,295,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,220,249,271,274,296,299,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,220,245,270,295,299,320,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,245,295,299,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,145,149,170,174,195,199,220,221,224,245,246,249,251,271,274,276,296,299,320,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,199,220,224,245,246,249,270,274,276,296,299,301,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,195,199,220,224,245,249,270,274,276,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,220,245,299,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,274,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,220,245,270,274,276,295,299,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,274,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,220,224,245,274,299,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,245,249,295,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,274,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,199,220,245,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,249,274,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,220,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,245,270,274,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,245,274,299,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_TN06.txt
+Processing file: CRD3_WA38.txt
+Processing file: CRD3_NM15.txt
+Processing file: CRD3_PR06.txt
+Processing file: CRD3_MI12.txt
+Processing file: CRD3_NM14.txt
+Processing file: CRD3_IA20.txt
+Processing file: CRD3_MA39.txt
+Processing file: CRD3_NV00.txt
+Processing file: CRD3_MD43.txt
+Processing file: CRD3_CA59.txt
+Processing file: CRD3_AR05.txt
+Processing file: CRD3_MA01.txt
+Processing file: CRD3_MN03.txt
+Processing file: CRD3_FL9048.txt
+Processing file: CRD3_TN02.txt
+Processing file: CRD3_WA10.txt
+Processing file: CRD3_WA42.txt
+Processing file: CRD3_LA24.txt
+Processing file: CRD3_CT26.txt
+Processing file: CRD3_WV00.txt
+Processing file: CRD3_CA21.txt
+Processing file: CRD3_NH07.txt
+Processing file: CRD3_VA11.txt
+Processing file: CRD3_RI06.txt
+Processing file: CRD3_MS24.txt
+Processing file: CRD3_IA03.txt
+Processing file: CRD3_MI46.txt
+Processing file: CRD3_VA27.txt
+Processing file: CRD3_ME08.txt
+Processing file: CRD3_FL9010.txt
+Processing file: CRD3_OK29.txt
+Processing file: CRD3_TX9050.txt
+Processing file: CRD3_TX9026.txt
+Processing file: CRD3_NY9020.txt
+Processing file: CRD3_MO34.txt
+Processing file: CRD3_AL35.txt
+Processing file: CRD3_FL81.txt
+Processing file: CRD3_CA9136.txt
+Processing file: CRD3_KY08.txt
+Processing file: CRD3_CA9109.txt
+Processing file: CRD3_IL01.txt
+Processing file: CRD3_MD21.txt
+Processing file: CRD3_ME06.txt
+Processing file: CRD3_IL25.txt
+Processing file: CRD3_FL32.txt
+Processing file: CRD3_IN51.txt
+Processing file: CRD3_NC57.txt
+Processing file: CRD3_TX65.txt
+Processing file: CRD3_CA9180.txt
+Processing file: CRD3_MD03.txt
+Processing file: CRD3_CA9067.txt
+Processing file: CRD3_TX9018.txt
+Processing file: CRD3_TX9025.txt
+Processing file: CRD3_SD01.txt
+Processing file: CRD3_MO09.txt
+Processing file: CRD3_NY9030.txt
+Processing file: CRD3_CA9123.txt
+Processing file: CRD3_MO49.txt
+Processing file: CRD3_AL24.txt
+Processing file: CRD3_MO07.txt
+Processing file: CRD3_AZ12.txt
+Processing file: CRD3_NJ42.txt
+Processing file: CRD3_CA9199.txt
+Processing file: CRD3_OH9006.txt
+Processing file: CRD3_CA9216.txt
+Processing file: CRD3_CA9013.txt
+Processing file: CRD3_OR07.txt
+Processing file: CRD3_CA9093.txt
+Processing file: CRD3_OK13.txt
+Processing file: CRD3_TX80.txt
+Processing file: CRD3_TX9103.txt
+Processing file: CRD3_KY27.txt
+Processing file: CRD3_WI13.txt
+Processing file: CRD3_OK14.txt
+Processing file: CRD3_TX9003.txt
+Processing file: CRD3_IL74.txt
+Processing file: CRD3_FL9014.txt
+Processing file: CRD3_CA52.txt
+Processing file: CRD3_MI21.txt
+Processing file: CRD3_FL9050.txt
+Processing file: CRD3_VA06.txt
+Processing file: CRD3_MN25.txt
+Processing file: CRD3_TX9007.txt
+Processing file: CRD3_OH61.txt
+Processing file: CRD3_TX9097.txt
+Processing file: CRD3_OR15.txt
+Processing file: CRD3_TX18.txt
+Processing file: CRD3_TX46.txt
+Processing file: CRD3_CA84.txt
+Processing file: CRD3_PA34.txt
+Processing file: CRD3_NY53.txt
+Processing file: CRD3_FL9021.txt
+Processing file: CRD3_PA74.txt
+Processing file: CRD3_MA40.txt
+Processing file: CRD3_TX9001.txt
+Processing file: CRD3_CA9161.txt
+Processing file: CRD3_AZ10.txt
+Processing file: CRD3_VA32.txt
+Processing file: CRD3_CA9193.txt
+Processing file: CRD3_WA06.txt
+Processing file: CRD3_FL9069.txt
+Processing file: CRD3_TX9069.txt
+Processing file: CRD3_NE09.txt
+Processing file: CRD3_IN49.txt
+Processing file: CRD3_MS18.txt
+Processing file: CRD3_FL86.txt
+Processing file: CRD3_FL11.txt
+Processing file: CRD3_TX22.txt
+Processing file: CRD3_IL60.txt
+Processing file: CRD3_WI44.txt
+Processing file: CRD3_CA9029.txt
+Processing file: CRD3_WA51.txt
+Processing file: CRD3_NY17.txt
+Processing file: CRD3_NY68.txt
+Processing file: CRD3_NC40.txt
+Processing file: CRD3_UT02.txt
+Processing file: CRD3_NC03.txt
+Processing file: CRD3_KS07.txt
+Processing file: CRD3_SC36.txt
+Processing file: CRD3_OH9004.txt
+Processing file: CRD3_TN11.txt
+Processing file: CRD3_FL9045.txt
+Processing file: CRD3_MO39.txt
+Processing file: CRD3_CA9094.txt
+Processing file: CRD3_CO04.txt
+Processing file: CRD3_MA08.txt
+Processing file: CRD3_FL33.txt
+Processing file: CRD3_FL59.txt
+Processing file: CRD3_TX9088.txt
+Processing file: CRD3_CA27.txt
+Processing file: CRD3_GA55.txt
+Processing file: CRD3_NE10.txt
+Processing file: CRD3_PA38.txt
+Processing file: CRD3_CA9175.txt
+Processing file: CRD3_PA20.txt
+Processing file: CRD3_WA29.txt
+Processing file: CRD3_CO16.txt
+Processing file: CRD3_MI04.txt
+Processing file: CRD3_NJ10.txt
+Processing file: CRD3_WA33.txt
+Processing file: CRD3_FL9038.txt
+Processing file: CRD3_OH68.txt
+Processing file: CRD3_IN03.txt
+Processing file: CRD3_TX52.txt
+Processing file: CRD3_CO40.txt
+Processing file: CRD3_VA04.txt
+Processing file: CRD3_FL9018.txt
+Processing file: CRD3_KY11.txt
+Processing file: CRD3_FL07.txt
+Processing file: CRD3_TX60.txt
+Processing file: CRD3_AR04.txt
+Processing file: CRD3_PA9005.txt
+Processing file: CRD3_NJ40.txt
+Processing file: CRD3_TX86.txt
+Processing file: CRD3_CA9039.txt
+Processing file: CRD3_IN38.txt
+Processing file: CRD3_AR23.txt
+Processing file: CRD3_WY03.txt
+Processing file: CRD3_CA9044.txt
+Processing file: CRD3_MI01.txt
+Processing file: CRD3_CT25.txt
+Processing file: CRD3_MT01.txt
+Processing file: CRD3_SC26.txt
+Processing file: CRD3_PA56.txt
+Processing file: CRD3_IA23.txt
+Processing file: CRD3_OR28.txt
+Processing file: CRD3_FL01.txt
+Processing file: CRD3_AL13.txt
+Processing file: CRD3_CA9131.txt
+Processing file: CRD3_TN05.txt
+Processing file: CRD3_CA9171.txt
+Processing file: CRD3_PA9010.txt
+Processing file: CRD3_OK28.txt
+Processing file: CRD3_MD09.txt
+Processing file: CRD3_NM13.txt
+Processing file: CRD3_NY49.txt
+Processing file: CRD3_ME11.txt
+Processing file: CRD3_OR05.txt
+Processing file: CRD3_FL64.txt
+Processing file: CRD3_PA66.txt
+Processing file: CRD3_NY86.txt
+Processing file: CRD3_AZ25.txt
+Processing file: CRD3_TX9080.txt
+Processing file: CRD3_NJ59.txt
+Processing file: CRD3_MN02.txt
+Processing file: CRD3_CA00.txt
+Processing file: CRD3_NC23.txt
+Processing file: CRD3_CA9192.txt
+Processing file: CRD3_OH47.txt
+Processing file: CRD3_IL65.txt
+Processing file: CRD3_LA02.txt
+Processing file: CRD3_MO24.txt
+Processing file: CRD3_NV10.txt
+Processing file: CRD3_FL9046.txt
+Processing file: CRD3_MD46.txt
+Processing file: CRD3_AZ13.txt
+Processing file: CRD3_MA13.txt
+Processing file: CRD3_SC15.txt
+Processing file: CRD3_NY06.txt
+Processing file: CRD3_MD33.txt
+Processing file: CRD3_NC70.txt
+Processing file: CRD3_CA9133.txt
+Processing file: CRD3_VA26.txt
+Processing file: CRD3_MI43.txt
+Processing file: CRD3_TN20.txt
+Processing file: CRD3_MI85.txt
+Processing file: CRD3_MT05.txt
+Processing file: CRD3_CT08.txt
+Processing file: CRD3_NC56.txt
+Processing file: CRD3_MI32.txt
+Processing file: CRD3_TX9092.txt
+Processing file: CRD3_DC01.txt
+Processing file: CRD3_ID08.txt
+Processing file: CRD3_CA9081.txt
+Processing file: CRD3_OK17.txt
+Processing file: CRD3_WA54.txt
+Processing file: CRD3_TX03.txt
+Processing file: CRD3_NY9011.txt
+Processing file: CRD3_PA50.txt
+Processing file: CRD3_IL35.txt
+Processing file: CRD3_MI52.txt
+Processing file: CRD3_MI39.txt
+Processing file: CRD3_NY33.txt
+Processing file: CRD3_VA56.txt
+Processing file: CRD3_UT18.txt
+Processing file: CRD3_PA77.txt
+Processing file: CRD3_MT08.txt
+Processing file: CRD3_UT08.txt
+Processing file: CRD3_MI80.txt
+Processing file: CRD3_MD14.txt
+Processing file: CRD3_OH71.txt
+Processing file: CRD3_MD17.txt
+Processing file: CRD3_OK25.txt
+Processing file: CRD3_MO05.txt
+Processing file: CRD3_MI07.txt
+Processing file: CRD3_VA23.txt
+Processing file: CRD3_AR10.txt
+Processing file: CRD3_OH81.txt
+Processing file: CRD3_TX09.txt
+Processing file: CRD3_NJ32.txt
+Processing file: CRD3_GA41.txt
+Processing file: CRD3_IL81.txt
+Processing file: CRD3_OH77.txt
+Processing file: CRD3_FL9063.txt
+Processing file: CRD3_IA11.txt
+Processing file: CRD3_CA9103.txt
+Processing file: CRD3_IN24.txt
+Processing file: CRD3_IL84.txt
+Processing file: CRD3_CA74.txt
+Processing file: CRD3_CA9047.txt
+Processing file: CRD3_NC32.txt
+Processing file: CRD3_TX9101.txt
+Processing file: CRD3_WV15.txt
+Processing file: CRD3_NY9035.txt
+Processing file: CRD3_NY9044.txt
+Processing file: CRD3_WI05.txt
+Processing file: CRD3_OR30.txt
+Processing file: CRD3_CA9132.txt
+Processing file: CRD3_TX37.txt
+Processing file: CRD3_CT14.txt
+Processing file: CRD3_VA21.txt
+Processing file: CRD3_TX9022.txt
+Processing file: CRD3_OH80.txt
+Processing file: CRD3_OH19.txt
+Processing file: CRD3_PA53.txt
+Processing file: CRD3_RI04.txt
+Processing file: CRD3_FL9065.txt
+Processing file: CRD3_MA35.txt
+Processing file: CRD3_TX69.txt
+Processing file: CRD3_CA9125.txt
+Processing file: CRD3_AR15.txt
+Processing file: CRD3_FL9075.txt
+Processing file: CRD3_OR10.txt
+Processing file: CRD3_CO18.txt
+Processing file: CRD3_TX82.txt
+Processing file: CRD3_TX35.txt
+Processing file: CRD3_CA9104.txt
+Processing file: CRD3_MS23.txt
+Processing file: CRD3_CO03.txt
+Processing file: CRD3_GA49.txt
+Processing file: CRD3_PA04.txt
+Processing file: CRD3_NY50.txt
+Processing file: CRD3_AZ16.txt
+Processing file: CRD3_WI00.txt
+Processing file: CRD3_NY9052.txt
+Processing file: CRD3_CA9110.txt
+Processing file: CRD3_MN18.txt
+Processing file: CRD3_NH01.txt
+Processing file: CRD3_TX9073.txt
+Processing file: CRD3_IN07.txt
+Processing file: CRD3_IL03.txt
+Processing file: CRD3_SC27.txt
+Processing file: CRD3_CA9097.txt
+Processing file: CRD3_MA41.txt
+Processing file: CRD3_NY9012.txt
+Processing file: CRD3_OR20.txt
+Processing file: CRD3_IN43.txt
+Processing file: CRD3_MA31.txt
+Processing file: CRD3_NJ13.txt
+Processing file: CRD3_DE08.txt
+Processing file: CRD3_NE01.txt
+Processing file: CRD3_OH45.txt
+Processing file: CRD3_NY9006.txt
+Processing file: CRD3_ID04.txt
+Processing file: CRD3_TN03.txt
+Processing file: CRD3_GA33.txt
+Processing file: CRD3_NY42.txt
+Processing file: CRD3_OH59.txt
+Processing file: CRD3_KY14.txt
+Processing file: CRD3_AZ20.txt
+Processing file: CRD3_NJ05.txt
+Processing file: CRD3_IN20.txt
+Processing file: CRD3_NY9004.txt
+Processing file: CRD3_TX9043.txt
+Processing file: CRD3_PA68.txt
+Processing file: CRD3_KY03.txt
+Processing file: CRD3_PA9001.txt
+Processing file: CRD3_TX9060.txt
+Processing file: CRD3_CA9129.txt
+Processing file: CRD3_OK15.txt
+Processing file: CRD3_NJ27.txt
+Processing file: CRD3_FL9049.txt
+Processing file: CRD3_VA24.txt
+Processing file: CRD3_RI00.txt
+Processing file: CRD3_TX9076.txt
+Processing file: CRD3_SC21.txt
+Processing file: CRD3_GA72.txt
+Processing file: CRD3_NC28.txt
+Processing file: CRD3_CA9205.txt
+Processing file: CRD3_NV13.txt
+Processing file: CRD3_TX9059.txt
+Processing file: CRD3_ME07.txt
+Processing file: CRD3_TX30.txt
+Processing file: CRD3_FL24.txt
+Processing file: CRD3_CA9143.txt
+Processing file: CRD3_WA20.txt
+Processing file: CRD3_CA9032.txt
+Processing file: CRD3_FL9034.txt
+Processing file: CRD3_TX9093.txt
+Processing file: CRD3_OH70.txt
+Processing file: CRD3_NC46.txt
+Processing file: CRD3_TN49.txt
+Processing file: CRD3_NJ48.txt
+Processing file: CRD3_NC48.txt
+Processing file: CRD3_NY29.txt
+Processing file: CRD3_NH09.txt
+Processing file: CRD3_MD42.txt
+Processing file: CRD3_IN46.txt
+Processing file: CRD3_NY28.txt
+Processing file: CRD3_MO43.txt
+Processing file: CRD3_SC02.txt
+Processing file: CRD3_IL9000.txt
+Processing file: CRD3_NV09.txt
+Processing file: CRD3_MI11.txt
+Processing file: CRD3_AR00.txt
+Processing file: CRD3_HI03.txt
+Processing file: CRD3_TN08.txt
+Processing file: CRD3_CA9086.txt
+Processing file: CRD3_CA9202.txt
+Processing file: CRD3_CA9042.txt
+Processing file: CRD3_RI05.txt
+Processing file: CRD3_TX9005.txt
+Processing file: CRD3_NJ54.txt
+Processing file: CRD3_TX87.txt
+Processing file: CRD3_CA9111.txt
+Processing file: CRD3_FL80.txt
+Processing file: CRD3_FL9027.txt
+Processing file: CRD3_PA03.txt
+Processing file: CRD3_FL9013.txt
+Processing file: CRD3_WA26.txt
+Processing file: CRD3_WV08.txt
+Processing file: CRD3_MN34.txt
+Processing file: CRD3_WI45.txt
+Processing file: CRD3_CA9027.txt
+Processing file: CRD3_MO32.txt
+Processing file: CRD3_OK05.txt
+Processing file: CRD3_CA87.txt
+Processing file: CRD3_FL9074.txt
+Processing file: CRD3_CA08.txt
+Processing file: CRD3_CA9152.txt
+Processing file: CRD3_RI03.txt
+Processing file: CRD3_TN27.txt
+Processing file: CRD3_TX9096.txt
+Processing file: CRD3_LA14.txt
+Processing file: CRD3_NC58.txt
+Processing file: CRD3_PA27.txt
+Processing file: CRD3_AR02.txt
+Processing file: CRD3_FL9015.txt
+Processing file: CRD3_CA12.txt
+Processing file: CRD3_OH24.txt
+Processing file: CRD3_WA34.txt
+Processing file: CRD3_OR19.txt
+Processing file: CRD3_NC76.txt
+Processing file: CRD3_OH72.txt
+Processing file: CRD3_MA04.txt
+Processing file: CRD3_GA51.txt
+Processing file: CRD3_MD26.txt
+Processing file: CRD3_NY80.txt
+Processing file: CRD3_IL71.txt
+Processing file: CRD3_MS22.txt
+Processing file: CRD3_OK26.txt
+Processing file: CRD3_NE13.txt
+Processing file: CRD3_CA9036.txt
+Processing file: CRD3_TX9090.txt
+Processing file: CRD3_FL09.txt
+Processing file: CRD3_CA9135.txt
+Processing file: CRD3_VT04.txt
+Processing file: CRD3_SC03.txt
+Processing file: CRD3_NC36.txt
+Processing file: CRD3_FL9056.txt
+Processing file: CRD3_CA9076.txt
+Processing file: CRD3_PA61.txt
+Processing file: CRD3_OR14.txt
+Processing file: CRD3_PA44.txt
+Processing file: CRD3_MI41.txt
+Processing file: CRD3_NC22.txt
+Processing file: CRD3_NY13.txt
+Processing file: CRD3_WV02.txt
+Processing file: CRD3_WI03.txt
+Processing file: CRD3_MO27.txt
+Processing file: CRD3_WA02.txt
+Processing file: CRD3_PA71.txt
+Processing file: CRD3_CA9149.txt
+Processing file: CRD3_VA33.txt
+Processing file: CRD3_UT05.txt
+Processing file: CRD3_MI22.txt
+Processing file: CRD3_NY9054.txt
+Processing file: CRD3_UT11.txt
+Processing file: CRD3_CA9201.txt
+Processing file: CRD3_IL55.txt
+Processing file: CRD3_WA05.txt
+Processing file: CRD3_VA15.txt
+Processing file: CRD3_KY32.txt
+Processing file: CRD3_GA40.txt
+Processing file: CRD3_TN35.txt
+Processing file: CRD3_CA35.txt
+Processing file: CRD3_AR08.txt
+Processing file: CRD3_MD39.txt
+Processing file: CRD3_NJ09.txt
+Processing file: CRD3_TX9032.txt
+Processing file: CRD3_OH49.txt
+Processing file: CRD3_IL9001.txt
+Processing file: CRD3_MS17.txt
+Processing file: CRD3_SC07.txt
+Processing file: CRD3_MN17.txt
+Processing file: CRD3_PA10.txt
+Processing file: CRD3_MA42.txt
+Processing file: CRD3_MO47.txt
+Processing file: CRD3_AZ11.txt
+Processing file: CRD3_MD23.txt
+Processing file: CRD3_GA31.txt
+Processing file: CRD3_WI17.txt
+Processing file: CRD3_LA19.txt
+Processing file: CRD3_KY06.txt
+Processing file: CRD3_MN14.txt
+Processing file: CRD3_MO44.txt
+Processing file: CRD3_KS14.txt
+Processing file: CRD3_CA9120.txt
+Processing file: CRD3_VA30.txt
+Processing file: CRD3_OH82.txt
+Processing file: CRD3_PA9008.txt
+Processing file: CRD3_NC43.txt
+Processing file: CRD3_MA43.txt
+Processing file: CRD3_CA9128.txt
+Processing file: CRD3_TN47.txt
+Processing file: CRD3_MD02.txt
+Processing file: CRD3_WI29.txt
+Processing file: CRD3_MO19.txt
+Processing file: CRD3_VA63.txt
+Processing file: CRD3_OK11.txt
+Processing file: CRD3_KY26.txt
+Processing file: CRD3_FL9035.txt
+Processing file: CRD3_CA9053.txt
+Processing file: CRD3_WI41.txt
+Processing file: CRD3_SC37.txt
+Processing file: CRD3_IL28.txt
+Processing file: CRD3_FL9055.txt
+Processing file: CRD3_MN20.txt
+Processing file: CRD3_TX9052.txt
+Processing file: CRD3_NC63.txt
+Processing file: CRD3_KY34.txt
+Processing file: CRD3_TN01.txt
+Processing file: CRD3_OH29.txt
+Processing file: CRD3_FL9059.txt
+Processing file: CRD3_GA20.txt
+Processing file: CRD3_OK23.txt
+Processing file: CRD3_NY54.txt
+Processing file: CRD3_FL9020.txt
+Processing file: CRD3_TX44.txt
+Processing file: CRD3_IL76.txt
+Processing file: CRD3_WI22.txt
+Processing file: CRD3_CT02.txt
+Processing file: CRD3_OH15.txt
+Processing file: CRD3_NC62.txt
+Processing file: CRD3_AZ34.txt
+Processing file: CRD3_NC00.txt
+Processing file: CRD3_TN34.txt
+Processing file: CRD3_TX9012.txt
+Processing file: CRD3_GA61.txt
+Processing file: CRD3_CO21.txt
+Processing file: CRD3_CO08.txt
+Processing file: CRD3_MN00.txt
+Processing file: CRD3_IL39.txt
+Processing file: CRD3_OH30.txt
+Processing file: CRD3_WA45.txt
+Processing file: CRD3_GA46.txt
+Processing file: CRD3_TX23.txt
+Processing file: CRD3_FL22.txt
+Processing file: CRD3_MD16.txt
+Processing file: CRD3_KY01.txt
+Processing file: CRD3_LA17.txt
+Processing file: CRD3_GA26.txt
+Processing file: CRD3_CA9174.txt
+Processing file: CRD3_NV06.txt
+Processing file: CRD3_CO13.txt
+Processing file: CRD3_CO29.txt
+Processing file: CRD3_CA9016.txt
+Processing file: CRD3_NJ22.txt
+Processing file: CRD3_MI27.txt
+Processing file: CRD3_PA89.txt
+Processing file: CRD3_TX33.txt
+Processing file: CRD3_FL73.txt
+Processing file: CRD3_FL9023.txt
+Processing file: CRD3_IL9008.txt
+Processing file: CRD3_MS28.txt
+Processing file: CRD3_WA28.txt
+Processing file: CRD3_NY22.txt
+Processing file: CRD3_TX9041.txt
+Processing file: CRD3_CO37.txt
+Processing file: CRD3_OH74.txt
+Processing file: CRD3_SC00.txt
+Processing file: CRD3_IN23.txt
+Processing file: CRD3_FL06.txt
+Processing file: CRD3_IA21.txt
+Processing file: CRD3_CA9095.txt
+Processing file: CRD3_CT07.txt
+Processing file: CRD3_PA55.txt
+Processing file: CRD3_TX55.txt
+Processing file: CRD3_IL15.txt
+Processing file: CRD3_WA30.txt
+Processing file: CRD3_CA9007.txt
+Processing file: CRD3_TX9104.txt
+Processing file: CRD3_AZ27.txt
+Processing file: CRD3_IL9007.txt
+Processing file: CRD3_OH34.txt
+Processing file: CRD3_TX66.txt
+Processing file: CRD3_SC17.txt
+Processing file: CRD3_CA9200.txt
+Processing file: CRD3_NJ14.txt
+Processing file: CRD3_IN22.txt
+Processing file: CRD3_WI38.txt
+Processing file: CRD3_DE04.txt
+Processing file: CRD3_FL17.txt
+Processing file: CRD3_NY65.txt
+Processing file: CRD3_MA00.txt
+Processing file: CRD3_GA58.txt
+Processing file: CRD3_NY9049.txt
+Processing file: CRD3_CO11.txt
+Processing file: CRD3_MI02.txt
+Processing file: CRD3_IL9002.txt
+Processing file: CRD3_IN16.txt
+Processing file: CRD3_AK06.txt
+Processing file: CRD3_VA58.txt
+Processing file: CRD3_AZ30.txt
+Processing file: CRD3_CA48.txt
+Processing file: CRD3_SC11.txt
+Processing file: CRD3_MA05.txt
+Processing file: CRD3_CA9115.txt
+Processing file: CRD3_MI59.txt
+Processing file: CRD3_SC29.txt
+Processing file: CRD3_GA67.txt
+Processing file: CRD3_CA58.txt
+Processing file: CRD3_FL9079.txt
+Processing file: CRD3_MI55.txt
+Processing file: CRD3_PR03.txt
+Processing file: CRD3_WV16.txt
+Processing file: CRD3_GA68.txt
+Processing file: CRD3_MI16.txt
+Processing file: CRD3_FL9042.txt
+Processing file: CRD3_CA9075.txt
+Processing file: CRD3_NJ34.txt
+Processing file: CRD3_OH21.txt
+Processing file: CRD3_KY28.txt
+Processing file: CRD3_KS03.txt
+Processing file: CRD3_ME01.txt
+Processing file: CRD3_OH00.txt
+Processing file: CRD3_NY32.txt
+Processing file: CRD3_MN07.txt
+Processing file: CRD3_OR01.txt
+Processing file: CRD3_OR06.txt
+Processing file: CRD3_MN04.txt
+Processing file: CRD3_TX9036.txt
+Processing file: CRD3_PA9007.txt
+Processing file: CRD3_NM07.txt
+Processing file: CRD3_WA03.txt
+Processing file: CRD3_NY45.txt
+Processing file: CRD3_KY02.txt
+Processing file: CRD3_MI37.txt
+Processing file: CRD3_AL25.txt
+Processing file: CRD3_CA9138.txt
+Processing file: CRD3_CA9018.txt
+Processing file: CRD3_KY07.txt
+Processing file: CRD3_OR26.txt
+Processing file: CRD3_NJ65.txt
+Processing file: CRD3_OR00.txt
+Processing file: CRD3_OH12.txt
+Processing file: CRD3_VA59.txt
+Processing file: CRD3_TX9063.txt
+Processing file: CRD3_IA17.txt
+Processing file: CRD3_FL9001.txt
+Processing file: CRD3_MO17.txt
+Processing file: CRD3_CA9155.txt
+Processing file: CRD3_OR21.txt
+Processing file: CRD3_OH36.txt
+Processing file: CRD3_VA07.txt
+Processing file: CRD3_CA23.txt
+Processing file: CRD3_TN04.txt
+Processing file: CRD3_TX89.txt
+Processing file: CRD3_FL48.txt
+Processing file: CRD3_VT01.txt
+Processing file: CRD3_MN36.txt
+Processing file: CRD3_WI32.txt
+Processing file: CRD3_FL9058.txt
+Processing file: CRD3_AZ38.txt
+Processing file: CRD3_IL83.txt
+Processing file: CRD3_HI09.txt
+Processing file: CRD3_GA38.txt
+Processing file: CRD3_AZ00.txt
+Processing file: CRD3_TN13.txt
+Processing file: CRD3_NY24.txt
+Processing file: CRD3_SC25.txt
+Processing file: CRD3_LA00.txt
+Processing file: CRD3_FL9006.txt
+Processing file: CRD3_AL09.txt
+Processing file: CRD3_LA22.txt
+Processing file: CRD3_IN12.txt
+Processing file: CRD3_NJ03.txt
+Processing file: CRD3_FL15.txt
+Processing file: CRD3_WV11.txt
+Processing file: CRD3_FL9003.txt
+Processing file: CRD3_MN23.txt
+Processing file: CRD3_WA19.txt
+Processing file: CRD3_NY57.txt
+Processing file: CRD3_TX9087.txt
+Processing file: CRD3_VA55.txt
+Processing file: CRD3_FL58.txt
+Processing file: CRD3_NY12.txt
+Processing file: CRD3_NJ00.txt
+Processing file: CRD3_TX45.txt
+Processing file: CRD3_FL35.txt
+Processing file: CRD3_KY17.txt
+Processing file: CRD3_MT00.txt
+Processing file: CRD3_WI28.txt
+Processing file: CRD3_VA60.txt
+Processing file: CRD3_WI21.txt
+Processing file: CRD3_CA9057.txt
+Processing file: CRD3_CT22.txt
+Processing file: CRD3_MN10.txt
+Processing file: CRD3_NY52.txt
+Processing file: CRD3_CO34.txt
+Processing file: CRD3_WA36.txt
+Processing file: CRD3_FL9017.txt
+Processing file: CRD3_AZ22.txt
+Processing file: CRD3_CO24.txt
+Processing file: CRD3_CA9052.txt
+Processing file: CRD3_FL47.txt
+Processing file: CRD3_MS25.txt
+Processing file: CRD3_NY9051.txt
+Processing file: CRD3_MD40.txt
+Processing file: CRD3_CT11.txt
+Processing file: CRD3_MN06.txt
+Processing file: CRD3_CA9139.txt
+Processing file: CRD3_CA36.txt
+Processing file: CRD3_OK20.txt
+Processing file: CRD3_KS10.txt
+Processing file: CRD3_FL9061.txt
+Processing file: CRD3_OH38.txt
+Processing file: CRD3_WV12.txt
+Processing file: CRD3_WA58.txt
+Processing file: CRD3_TX9031.txt
+Processing file: CRD3_FL9036.txt
+Processing file: CRD3_MA26.txt
+Processing file: CRD3_IL34.txt
+Processing file: CRD3_VA41.txt
+Processing file: CRD3_WI35.txt
+Processing file: CRD3_SC09.txt
+Processing file: CRD3_MO46.txt
+Processing file: CRD3_MO40.txt
+Processing file: CRD3_TN33.txt
+Processing file: CRD3_OH60.txt
+Processing file: CRD3_IL32.txt
+Processing file: CRD3_NY9002.txt
+Processing file: CRD3_TX54.txt
+Processing file: CRD3_NY88.txt
+Processing file: CRD3_NH03.txt
+Processing file: CRD3_HI05.txt
+Processing file: CRD3_IN41.txt
+Processing file: CRD3_LA18.txt
+Processing file: CRD3_OH46.txt
+Processing file: CRD3_KS09.txt
+Processing file: CRD3_OH51.txt
+Processing file: CRD3_VA61.txt
+Processing file: CRD3_CA42.txt
+Processing file: CRD3_FL38.txt
+Processing file: CRD3_CT04.txt
+Processing file: CRD3_NC49.txt
+Processing file: CRD3_NC35.txt
+Processing file: CRD3_MI75.txt
+Processing file: CRD3_OH9002.txt
+Processing file: CRD3_OH52.txt
+Processing file: CRD3_NC10.txt
+Processing file: CRD3_CT16.txt
+Processing file: CRD3_WA22.txt
+Processing file: CRD3_SC31.txt
+Processing file: CRD3_TX51.txt
+Processing file: CRD3_KY35.txt
+Processing file: CRD3_TN26.txt
+Processing file: CRD3_LA27.txt
+Processing file: CRD3_CO15.txt
+Processing file: CRD3_TX9048.txt
+Processing file: CRD3_NJ43.txt
+Processing file: CRD3_WI02.txt
+Processing file: CRD3_NY9046.txt
+Processing file: CRD3_TX9014.txt
+Processing file: CRD3_CA9048.txt
+Processing file: CRD3_LA16.txt
+Processing file: CRD3_FL9041.txt
+Processing file: CRD3_MD35.txt
+Processing file: CRD3_TN09.txt
+Processing file: CRD3_IA01.txt
+Processing file: CRD3_MI14.txt
+Processing file: CRD3_DC04.txt
+Processing file: CRD3_FL9025.txt
+Processing file: CRD3_CO27.txt
+Processing file: CRD3_PA83.txt
+Processing file: CRD3_NY9048.txt
+Processing file: CRD3_AL20.txt
+Processing file: CRD3_IL21.txt
+Processing file: CRD3_IL68.txt
+Processing file: CRD3_HI00.txt
+Processing file: CRD3_CT23.txt
+Processing file: CRD3_CA9157.txt
+Processing file: CRD3_VA62.txt
+Processing file: CRD3_PA18.txt
+Processing file: CRD3_FL9011.txt
+Processing file: CRD3_CA9160.txt
+Processing file: CRD3_CO26.txt
+Processing file: CRD3_KY30.txt
+Processing file: CRD3_CA9043.txt
+Processing file: CRD3_MD36.txt
+Processing file: CRD3_NY9050.txt
+Processing file: CRD3_IL67.txt
+Processing file: CRD3_IA12.txt
+Processing file: CRD3_NY9033.txt
+Processing file: CRD3_LA26.txt
+Processing file: CRD3_CA9031.txt
+Processing file: CRD3_IN29.txt
+Processing file: CRD3_NE05.txt
+Processing file: CRD3_NJ11.txt
+Processing file: CRD3_IL44.txt
+Processing file: CRD3_CT19.txt
+Processing file: CRD3_FL9032.txt
+Processing file: CRD3_MA11.txt
+Processing file: CRD3_IN42.txt
+Processing file: CRD3_OH26.txt
+Processing file: CRD3_GA27.txt
+Processing file: CRD3_WA09.txt
+Processing file: CRD3_MI10.txt
+Processing file: CRD3_PA19.txt
+Processing file: CRD3_IL87.txt
+Processing file: CRD3_PA37.txt
+Processing file: CRD3_WY00.txt
+Processing file: CRD3_TX15.txt
+Processing file: CRD3_PA22.txt
+Processing file: CRD3_IN18.txt
+Processing file: CRD3_OH53.txt
+Processing file: CRD3_NJ51.txt
+Processing file: CRD3_GA11.txt
+Processing file: CRD3_KS02.txt
+Processing file: CRD3_IL02.txt
+Processing file: CRD3_CA9045.txt
+Processing file: CRD3_OH67.txt
+Processing file: CRD3_OR27.txt
+Processing file: CRD3_IN45.txt
+Processing file: CRD3_SC35.txt
+Processing file: CRD3_MI38.txt
+Processing file: CRD3_KS12.txt
+Processing file: CRD3_IN37.txt
+Processing file: CRD3_MO08.txt
+Processing file: CRD3_NY23.txt
+Processing file: CRD3_PA85.txt
+Processing file: CRD3_WI06.txt
+Processing file: CRD3_FL9019.txt
+Processing file: CRD3_LA31.txt
+Processing file: CRD3_IL9003.txt
+Processing file: CRD3_GA52.txt
+Processing file: CRD3_MA21.txt
+Processing file: CRD3_NJ38.txt
+Processing file: CRD3_OR09.txt
+Processing file: CRD3_MI09.txt
+Processing file: CRD3_IL41.txt
+Processing file: CRD3_AR06.txt
+Processing file: CRD3_LA12.txt
+Processing file: CRD3_OH27.txt
+Processing file: CRD3_PA29.txt
+Processing file: CRD3_NY9024.txt
+Processing file: CRD3_SD06.txt
+Processing file: CRD3_CA9006.txt
+Processing file: CRD3_TX85.txt
+Processing file: CRD3_CO20.txt
+Processing file: CRD3_GA62.txt
+Processing file: CRD3_CO36.txt
+Processing file: CRD3_GA07.txt
+Processing file: CRD3_NC11.txt
+Processing file: CRD3_WA01.txt
+Processing file: CRD3_MO31.txt
+Processing file: CRD3_FL26.txt
+Processing file: CRD3_NJ45.txt
+Processing file: CRD3_ME09.txt
+Processing file: CRD3_WI20.txt
+Processing file: CRD3_VA47.txt
+Processing file: CRD3_ME00.txt
+Processing file: CRD3_TX9009.txt
+Processing file: CRD3_FL53.txt
+Processing file: CRD3_AZ29.txt
+Processing file: CRD3_FL9008.txt
+Processing file: CRD3_WA56.txt
+Processing file: CRD3_CA9028.txt
+Processing file: CRD3_UT14.txt
+Processing file: CRD3_LA37.txt
+Processing file: CRD3_AZ06.txt
+Processing file: CRD3_NY03.txt
+Processing file: CRD3_CA9055.txt
+Processing file: CRD3_NJ52.txt
+Processing file: CRD3_MA25.txt
+Processing file: CRD3_IL11.txt
+Processing file: CRD3_CA9060.txt
+Processing file: CRD3_NY21.txt
+Processing file: CRD3_TX9010.txt
+Processing file: CRD3_MD11.txt
+Processing file: CRD3_MO30.txt
+Processing file: CRD3_IL66.txt
+Processing file: CRD3_TX9000.txt
+Processing file: CRD3_CA9177.txt
+Processing file: CRD3_WV13.txt
+Processing file: CRD3_VT00.txt
+Processing file: CRD3_WA27.txt
+Processing file: CRD3_IL57.txt
+Processing file: CRD3_CO23.txt
+Processing file: CRD3_CA9002.txt
+Processing file: CRD3_WI23.txt
+Processing file: CRD3_AL29.txt
+Processing file: CRD3_AZ31.txt
+Processing file: CRD3_MI19.txt
+Processing file: CRD3_FL10.txt
+Processing file: CRD3_AL17.txt
+Processing file: CRD3_CA9186.txt
+Processing file: CRD3_WA17.txt
+Processing file: CRD3_CA9184.txt
+Processing file: CRD3_NV01.txt
+Processing file: CRD3_WI31.txt
+Processing file: CRD3_CA41.txt
+Processing file: CRD3_NY9013.txt
+Processing file: CRD3_NY19.txt
+Processing file: CRD3_NC05.txt
+Processing file: CRD3_SC19.txt
+Processing file: CRD3_IL77.txt
+Processing file: CRD3_IA13.txt
+Processing file: CRD3_NY05.txt
+Processing file: CRD3_GA47.txt
+Processing file: CRD3_NH08.txt
+Processing file: CRD3_OR31.txt
+Processing file: CRD3_WI40.txt
+Processing file: CRD3_CA9037.txt
+Processing file: CRD3_ND04.txt
+Processing file: CRD3_CA9069.txt
+Processing file: CRD3_AR14.txt
+Processing file: CRD3_TX9046.txt
+Processing file: CRD3_WA04.txt
+Processing file: CRD3_OK03.txt
+Processing file: CRD3_WI25.txt
+Processing file: CRD3_PA9012.txt
+Processing file: CRD3_UT09.txt
+Processing file: CRD3_NM01.txt
+Processing file: CRD3_NY9027.txt
+Processing file: CRD3_LA23.txt
+Processing file: CRD3_TX07.txt
+Processing file: CRD3_VA18.txt
+Processing file: CRD3_PA80.txt
+Processing file: CRD3_FL9077.txt
+Processing file: CRD3_NY9040.txt
+Processing file: CRD3_FL45.txt
+Processing file: CRD3_CA19.txt
+Processing file: CRD3_CA9167.txt
+Processing file: CRD3_CA9183.txt
+Processing file: CRD3_OH32.txt
+Processing file: CRD3_FL9064.txt
+Processing file: CRD3_AL23.txt
+Processing file: CRD3_NJ31.txt
+Processing file: CRD3_CA9079.txt
+Processing file: CRD3_TX63.txt
+Processing file: CRD3_MO11.txt
+Processing file: CRD3_GA01.txt
+Processing file: CRD3_TN43.txt
+Processing file: CRD3_IN40.txt
+Processing file: CRD3_NM00.txt
+Processing file: CRD3_CT15.txt
+Processing file: CRD3_OR02.txt
+Processing file: CRD3_IL36.txt
+Processing file: CRD3_GA29.txt
+Processing file: CRD3_PA88.txt
+Processing file: CRD3_PA43.txt
+Processing file: CRD3_MO50.txt
+Processing file: CRD3_NC29.txt
+Processing file: CRD3_MI77.txt
+Processing file: CRD3_TN42.txt
+Processing file: CRD3_CA9178.txt
+Processing file: CRD3_IL23.txt
+Processing file: CRD3_RI02.txt
+Processing file: CRD3_OR24.txt
+Processing file: CRD3_CA9126.txt
+Processing file: CRD3_GA12.txt
+Processing file: CRD3_TN16.txt
+Processing file: CRD3_AL02.txt
+Processing file: CRD3_DC00.txt
+Processing file: CRD3_CA67.txt
+Processing file: CRD3_OH40.txt
+Processing file: CRD3_OK22.txt
+Processing file: CRD3_CA9096.txt
+Processing file: CRD3_CO07.txt
+Processing file: CRD3_IL75.txt
+Processing file: CRD3_FL83.txt
+Processing file: CRD3_AZ19.txt
+Processing file: CRD3_CA73.txt
+Processing file: CRD3_CA10.txt
+Processing file: CRD3_AZ28.txt
+Processing file: CRD3_FL77.txt
+Processing file: CRD3_FL71.txt
+Processing file: CRD3_TN00.txt
+Processing file: CRD3_TX50.txt
+Processing file: CRD3_OH9007.txt
+Processing file: CRD3_VA38.txt
+Processing file: CRD3_TX9070.txt
+Processing file: CRD3_FL61.txt
+Processing file: CRD3_TN10.txt
+Processing file: CRD3_TN36.txt
+Processing file: CRD3_CA9004.txt
+Processing file: CRD3_NY9032.txt
+Processing file: CRD3_CA86.txt
+Processing file: CRD3_KY05.txt
+Processing file: CRD3_WA14.txt
+Processing file: CRD3_FL41.txt
+Processing file: CRD3_PA08.txt
+Processing file: CRD3_OK12.txt
+Processing file: CRD3_NY89.txt
+Processing file: CRD3_CA9207.txt
+Processing file: CRD3_AZ37.txt
+Processing file: CRD3_VT02.txt
+Processing file: CRD3_SC18.txt
+Processing file: CRD3_NJ18.txt
+Processing file: CRD3_MO21.txt
+Processing file: CRD3_TX9047.txt
+Processing file: CRD3_WI26.txt
+Processing file: CRD3_NV03.txt
+Processing file: CRD3_TX9053.txt
+Processing file: CRD3_NY48.txt
+Processing file: CRD3_AZ24.txt
+Processing file: CRD3_FL9005.txt
+Processing file: CRD3_SC24.txt
+Processing file: CRD3_AL33.txt
+Processing file: CRD3_CA60.txt
+Processing file: CRD3_CA29.txt
+Processing file: CRD3_MD30.txt
+Processing file: CRD3_OH9000.txt
+Processing file: CRD3_CA9059.txt
+Processing file: CRD3_MN05.txt
+Processing file: CRD3_NC74.txt
+Processing file: CRD3_AR24.txt
+Processing file: CRD3_NY9029.txt
+Processing file: CRD3_NJ17.txt
+Processing file: CRD3_CA71.txt
+Processing file: CRD3_GA15.txt
+Processing file: CRD3_MI31.txt
+Processing file: CRD3_OH87.txt
+Processing file: CRD3_NJ56.txt
+Processing file: CRD3_TX13.txt
+Processing file: CRD3_UT00.txt
+Processing file: CRD3_PA86.txt
+Processing file: CRD3_NC53.txt
+Processing file: CRD3_OH54.txt
+Processing file: CRD3_AL37.txt
+Processing file: CRD3_MN16.txt
+Processing file: CRD3_IL00.txt
+Processing file: CRD3_NM03.txt
+Processing file: CRD3_TX9072.txt
+Processing file: CRD3_NJ44.txt
+Processing file: CRD3_GA42.txt
+Processing file: CRD3_CA9050.txt
+Processing file: CRD3_MD01.txt
+Processing file: CRD3_IL9009.txt
+Processing file: CRD3_IL18.txt
+Processing file: CRD3_CA9000.txt
+Processing file: CRD3_CA28.txt
+Processing file: CRD3_CA9188.txt
+Processing file: CRD3_HI02.txt
+Processing file: CRD3_CA9209.txt
+Processing file: CRD3_VA49.txt
+Processing file: CRD3_MI60.txt
+Processing file: CRD3_VA40.txt
+Processing file: CRD3_MI64.txt
+Processing file: CRD3_IL26.txt
+Processing file: CRD3_LA32.txt
+Processing file: CRD3_AL28.txt
+Processing file: CRD3_MI81.txt
+Processing file: CRD3_NJ61.txt
+Processing file: CRD3_LA13.txt
+Processing file: CRD3_FL9033.txt
+Processing file: CRD3_CA26.txt
+Processing file: CRD3_FL14.txt
+Processing file: CRD3_AZ49.txt
+Processing file: CRD3_CA9156.txt
+Processing file: CRD3_CA07.txt
+Processing file: CRD3_TX42.txt
+Processing file: CRD3_CA9140.txt
+Processing file: CRD3_LA06.txt
+Processing file: CRD3_NH10.txt
+Processing file: CRD3_FL9002.txt
+Processing file: CRD3_TX16.txt
+Processing file: CRD3_MI83.txt
+Processing file: CRD3_WA49.txt
+Processing file: CRD3_NY62.txt
+Processing file: CRD3_CA9124.txt
+Processing file: CRD3_GA75.txt
+Processing file: CRD3_TX9055.txt
+Processing file: CRD3_OH18.txt
+Processing file: CRD3_OH66.txt
+Processing file: CRD3_MN24.txt
+Processing file: CRD3_CO45.txt
+Processing file: CRD3_NJ30.txt
+Processing file: CRD3_DC05.txt
+Processing file: CRD3_FL23.txt
+Processing file: CRD3_PA41.txt
+Processing file: CRD3_MA15.txt
+Processing file: CRD3_MI82.txt
+Processing file: CRD3_ID00.txt
+Processing file: CRD3_WA41.txt
+Processing file: CRD3_AZ40.txt
+Processing file: CRD3_NC38.txt
+Processing file: CRD3_OH03.txt
+Processing file: CRD3_TX10.txt
+Processing file: CRD3_PA67.txt
+Processing file: CRD3_CA9181.txt
+Processing file: CRD3_CA9185.txt
+Processing file: CRD3_NJ39.txt
+Processing file: CRD3_CA9164.txt
+Processing file: CRD3_IL70.txt
+Processing file: CRD3_TX9077.txt
+Processing file: CRD3_GA32.txt
+Processing file: CRD3_LA09.txt
+Processing file: CRD3_TX9006.txt
+Processing file: CRD3_TX27.txt
+Processing file: CRD3_CA9198.txt
+Processing file: CRD3_GA54.txt
+Processing file: CRD3_PA9006.txt
+Processing file: CRD3_MI57.txt
+Processing file: CRD3_TX9066.txt
+Processing file: CRD3_TX25.txt
+Processing file: CRD3_WA11.txt
+Processing file: CRD3_FL9047.txt
+Processing file: CRD3_NE11.txt
+Processing file: CRD3_AL03.txt
+Processing file: CRD3_MO01.txt
+Processing file: CRD3_FL29.txt
+Processing file: CRD3_FL68.txt
+Processing file: CRD3_CA9051.txt
+Processing file: CRD3_FL9029.txt
+Processing file: CRD3_PA75.txt
+Processing file: CRD3_TX9091.txt
+Processing file: CRD3_MA06.txt
+Processing file: CRD3_CA9065.txt
+Processing file: CRD3_MA27.txt
+Processing file: CRD3_OH69.txt
+Processing file: CRD3_CA9102.txt
+Processing file: CRD3_RI01.txt
+Processing file: CRD3_TX9089.txt
+Processing file: CRD3_NY9028.txt
+Processing file: CRD3_MO28.txt
+Processing file: CRD3_MD12.txt
+Processing file: CRD3_CA9141.txt
+Processing file: CRD3_FL9057.txt
+Processing file: CRD3_CA68.txt
+Processing file: CRD3_IN10.txt
+Processing file: CRD3_WI07.txt
+Processing file: CRD3_GA43.txt
+Processing file: CRD3_NJ46.txt
+Processing file: CRD3_PA84.txt
+Processing file: CRD3_NY46.txt
+Processing file: CRD3_IL89.txt
+Processing file: CRD3_NY79.txt
+Processing file: CRD3_MA17.txt
+Processing file: CRD3_VA43.txt
+Processing file: CRD3_CA9087.txt
+Processing file: CRD3_PA52.txt
+Processing file: CRD3_PA47.txt
+Processing file: CRD3_NE03.txt
+Processing file: CRD3_CA9191.txt
+Processing file: CRD3_CA18.txt
+Processing file: CRD3_NM05.txt
+Processing file: CRD3_CA9163.txt
+Processing file: CRD3_PA9002.txt
+Processing file: CRD3_CA85.txt
+Processing file: CRD3_NY9022.txt
+Processing file: CRD3_GA25.txt
+Processing file: CRD3_LA15.txt
+Processing file: CRD3_NC67.txt
+Processing file: CRD3_KY33.txt
+Processing file: CRD3_MI48.txt
+Processing file: CRD3_WA37.txt
+Processing file: CRD3_TX9057.txt
+Processing file: CRD3_CA9022.txt
+Processing file: CRD3_AR22.txt
+Processing file: CRD3_AL12.txt
+Processing file: CRD3_VA44.txt
+Processing file: CRD3_OH88.txt
+Processing file: CRD3_OH31.txt
+Processing file: CRD3_MI65.txt
+Processing file: CRD3_CA9214.txt
+Processing file: CRD3_CA9211.txt
+Processing file: CRD3_TN50.txt
+Processing file: CRD3_PA72.txt
+Processing file: CRD3_FL9052.txt
+Processing file: CRD3_LA38.txt
+Processing file: CRD3_FL27.txt
+Processing file: CRD3_MA12.txt
+Processing file: CRD3_NJ58.txt
+Processing file: CRD3_CA9070.txt
+Processing file: CRD3_TX53.txt
+Processing file: CRD3_AR01.txt
+Processing file: CRD3_NY9039.txt
+Processing file: CRD3_FL08.txt
+Processing file: CRD3_SC22.txt
+Processing file: CRD3_IN00.txt
+Processing file: CRD3_MI62.txt
+Processing file: CRD3_OH01.txt
+Processing file: CRD3_NJ12.txt
+Processing file: CRD3_TX02.txt
+Processing file: CRD3_KY13.txt
+Processing file: CRD3_NY31.txt
+Processing file: CRD3_VA34.txt
+Processing file: CRD3_MA44.txt
+Processing file: CRD3_MI68.txt
+Processing file: CRD3_WV04.txt
+Processing file: CRD3_IA07.txt
+Processing file: CRD3_TX29.txt
+Processing file: CRD3_OH16.txt
+Processing file: CRD3_AZ02.txt
+Processing file: CRD3_MI05.txt
+Processing file: CRD3_RI08.txt
+Processing file: CRD3_IA02.txt
+Processing file: CRD3_AZ01.txt
+Processing file: CRD3_OH9003.txt
+Processing file: CRD3_HI08.txt
+Processing file: CRD3_NC18.txt
+Processing file: CRD3_NY25.txt
+Processing file: CRD3_MI28.txt
+Processing file: CRD3_CA62.txt
+Processing file: CRD3_CA82.txt
+Processing file: CRD3_FL9040.txt
+Processing file: CRD3_MO06.txt
+Processing file: CRD3_MA03.txt
+Processing file: CRD3_TX9027.txt
+Processing file: CRD3_FL72.txt
+Processing file: CRD3_MI56.txt
+Processing file: CRD3_UT15.txt
+Processing file: CRD3_TX9033.txt
+Processing file: CRD3_CA9091.txt
+Processing file: CRD3_GA69.txt
+Processing file: CRD3_NJ55.txt
+Processing file: CRD3_CA9082.txt
+Processing file: CRD3_GA76.txt
+Processing file: CRD3_KY04.txt
+Processing file: CRD3_NY78.txt
+Processing file: CRD3_TX9045.txt
+Processing file: CRD3_OH84.txt
+Processing file: CRD3_CA70.txt
+Processing file: CRD3_NV21.txt
+Processing file: CRD3_KY18.txt
+Processing file: CRD3_PA13.txt
+Processing file: CRD3_CT05.txt
+Processing file: CRD3_WA48.txt
+Processing file: CRD3_TX81.txt
+Processing file: CRD3_TN14.txt
+Processing file: CRD3_NC02.txt
+Processing file: CRD3_MD15.txt
+Processing file: CRD3_IN01.txt
+Processing file: CRD3_AL19.txt
+Processing file: CRD3_MA09.txt
+Processing file: CRD3_CA39.txt
+Processing file: CRD3_CA66.txt
+Processing file: CRD3_CA89.txt
+Processing file: CRD3_TX9095.txt
+Processing file: CRD3_OH23.txt
+Processing file: CRD3_OH41.txt
+Processing file: CRD3_AK03.txt
+Processing file: CRD3_MD05.txt
+Processing file: CRD3_IL30.txt
+Processing file: CRD3_NY04.txt
+Processing file: CRD3_IL22.txt
+Processing file: CRD3_KY09.txt
+Processing file: CRD3_CA45.txt
+Processing file: CRD3_GA14.txt
+Processing file: CRD3_OR23.txt
+Processing file: CRD3_TN12.txt
+Processing file: CRD3_NC55.txt
+Processing file: CRD3_OK04.txt
+Processing file: CRD3_AZ21.txt
+Processing file: CRD3_OH42.txt
+Processing file: CRD3_VA31.txt
+Processing file: CRD3_VA39.txt
+Processing file: CRD3_MA22.txt
+Processing file: CRD3_CA9195.txt
+Processing file: CRD3_SC12.txt
+Processing file: CRD3_FL28.txt
+Processing file: CRD3_CA9085.txt
+Processing file: CRD3_HI06.txt
+Processing file: CRD3_FL55.txt
+Processing file: CRD3_CA9142.txt
+Processing file: CRD3_TX9071.txt
+Processing file: CRD3_OK19.txt
+Processing file: CRD3_WI09.txt
+Processing file: CRD3_CO05.txt
+Processing file: CRD3_OK08.txt
+Processing file: CRD3_OK02.txt
+Processing file: CRD3_NC24.txt
+Processing file: CRD3_ME04.txt
+Processing file: CRD3_KY20.txt
+Processing file: CRD3_AZ47.txt
+Processing file: CRD3_FL62.txt
+Processing file: CRD3_WA53.txt
+Processing file: CRD3_AR17.txt
+Processing file: CRD3_GA66.txt
+Processing file: CRD3_CA9215.txt
+Processing file: CRD3_AL14.txt
+Processing file: CRD3_CA72.txt
+Processing file: CRD3_NY63.txt
+Processing file: CRD3_CA9056.txt
+Processing file: CRD3_AK02.txt
+Processing file: CRD3_MA18.txt
+Processing file: CRD3_NY9001.txt
+Processing file: CRD3_LA11.txt
+Processing file: CRD3_MO38.txt
+Processing file: CRD3_IL33.txt
+Processing file: CRD3_IL73.txt
+Processing file: CRD3_CA69.txt
+Processing file: CRD3_GA22.txt
+Processing file: CRD3_MN26.txt
+Processing file: CRD3_TX9084.txt
+Processing file: CRD3_PA33.txt
+Processing file: CRD3_IN05.txt
+Processing file: CRD3_SC14.txt
+Processing file: CRD3_NC54.txt
+Processing file: CRD3_MN35.txt
+Processing file: CRD3_CA81.txt
+Processing file: CRD3_ID10.txt
+Processing file: CRD3_PA65.txt
+Processing file: CRD3_NY55.txt
+Processing file: CRD3_CA50.txt
+Processing file: CRD3_TX11.txt
+Processing file: CRD3_MO26.txt
+Processing file: CRD3_PR02.txt
+Processing file: CRD3_GA60.txt
+Processing file: CRD3_FL66.txt
+Processing file: CRD3_TX9037.txt
+Processing file: CRD3_GA57.txt
+Processing file: CRD3_ND01.txt
+Processing file: CRD3_TX68.txt
+Processing file: CRD3_FL37.txt
+Processing file: CRD3_OH37.txt
+Processing file: CRD3_MI17.txt
+Processing file: CRD3_WI43.txt
+Processing file: CRD3_NY9025.txt
+Processing file: CRD3_NY76.txt
+Processing file: CRD3_AZ05.txt
+Processing file: CRD3_CA9150.txt
+Processing file: CRD3_FL02.txt
+Processing file: CRD3_AL30.txt
+Processing file: CRD3_TX9054.txt
+Processing file: CRD3_TX26.txt
+Processing file: CRD3_OH85.txt
+Processing file: CRD3_GA03.txt
+Processing file: CRD3_MT04.txt
+Processing file: CRD3_PA39.txt
+Processing file: CRD3_SC28.txt
+Processing file: CRD3_VA05.txt
+Processing file: CRD3_CA9208.txt
+Processing file: CRD3_MI35.txt
+Processing file: CRD3_AL31.txt
+Processing file: CRD3_NC78.txt
+Processing file: CRD3_NM11.txt
+Processing file: CRD3_TX9068.txt
+Processing file: CRD3_TN17.txt
+Processing file: CRD3_PR07.txt
+Processing file: CRD3_NC13.txt
+Processing file: CRD3_MI63.txt
+Processing file: CRD3_TX76.txt
+Processing file: CRD3_AL05.txt
+Processing file: CRD3_MI30.txt
+Processing file: CRD3_SC01.txt
+Processing file: CRD3_TX38.txt
+Processing file: CRD3_MI74.txt
+Processing file: CRD3_NC59.txt
+Processing file: CRD3_CA9119.txt
+Processing file: CRD3_CO10.txt
+Processing file: CRD3_WI36.txt
+Processing file: CRD3_CA53.txt
+Processing file: CRD3_MN19.txt
+Processing file: CRD3_KY29.txt
+Processing file: CRD3_NY70.txt
+Processing file: CRD3_TX24.txt
+Processing file: CRD3_AZ45.txt
+Processing file: CRD3_NV18.txt
+Processing file: CRD3_NY9008.txt
+Processing file: CRD3_NC75.txt
+Processing file: CRD3_CA9206.txt
+Processing file: CRD3_NM04.txt
+Processing file: CRD3_CA9213.txt
+Processing file: CRD3_WI11.txt
+Processing file: CRD3_OH65.txt
+Processing file: CRD3_FL51.txt
+Processing file: CRD3_MN01.txt
+Processing file: CRD3_FL12.txt
+Processing file: CRD3_TX28.txt
+Processing file: CRD3_NV08.txt
+Processing file: CRD3_FL60.txt
+Processing file: CRD3_AZ15.txt
+Processing file: CRD3_IN36.txt
+Processing file: CRD3_FL54.txt
+Processing file: CRD3_IL27.txt
+Processing file: CRD3_TN48.txt
+Processing file: CRD3_OH13.txt
+Processing file: CRD3_PA9013.txt
+Processing file: CRD3_WI37.txt
+Processing file: CRD3_CA9121.txt
+Processing file: CRD3_GA65.txt
+Processing file: CRD3_MO36.txt
+Processing file: CRD3_IL37.txt
+Processing file: CRD3_IL29.txt
+Processing file: CRD3_NJ01.txt
+Processing file: CRD3_LA25.txt
+Processing file: CRD3_NY9047.txt
+Processing file: CRD3_MI08.txt
+Processing file: CRD3_TX9082.txt
+Processing file: CRD3_TN41.txt
+Processing file: CRD3_TX9085.txt
+Processing file: CRD3_IL05.txt
+Processing file: CRD3_PA15.txt
+Processing file: CRD3_PA73.txt
+Processing file: CRD3_TX34.txt
+Processing file: CRD3_CT28.txt
+Processing file: CRD3_PA17.txt
+Processing file: CRD3_CA75.txt
+Processing file: CRD3_OH62.txt
+Processing file: CRD3_HI04.txt
+Processing file: CRD3_NC16.txt
+Processing file: CRD3_CA34.txt
+Processing file: CRD3_MA32.txt
+Processing file: CRD3_WI15.txt
+Processing file: CRD3_NY18.txt
+Processing file: CRD3_MN28.txt
+Processing file: CRD3_IL54.txt
+Processing file: CRD3_TX9064.txt
+Processing file: CRD3_LA10.txt
+Processing file: CRD3_CO39.txt
+Processing file: CRD3_NY35.txt
+Processing file: CRD3_GA56.txt
+Processing file: CRD3_ME12.txt
+Processing file: CRD3_DE03.txt
+Processing file: CRD3_CA76.txt
+Processing file: CRD3_OH63.txt
+Processing file: CRD3_LA01.txt
+Processing file: CRD3_AL16.txt
+Processing file: CRD3_PR01.txt
+Processing file: CRD3_OH08.txt
+Processing file: CRD3_GA10.txt
+Processing file: CRD3_TX77.txt
+Processing file: CRD3_MO16.txt
+Processing file: CRD3_NV20.txt
+Processing file: CRD3_OH86.txt
+Processing file: CRD3_NY43.txt
+Processing file: CRD3_IA18.txt
+Processing file: CRD3_WI27.txt
+Processing file: CRD3_NY11.txt
+Processing file: CRD3_FL9071.txt
+Processing file: CRD3_PA9014.txt
+Processing file: CRD3_NC08.txt
+Processing file: CRD3_IN09.txt
+Processing file: CRD3_OK24.txt
+Processing file: CRD3_CA9194.txt
+Processing file: CRD3_CA9154.txt
+Processing file: CRD3_OR16.txt
+Processing file: CRD3_WA31.txt
+Processing file: CRD3_GA21.txt
+Processing file: CRD3_MI67.txt
+Processing file: CRD3_AZ09.txt
+Processing file: CRD3_MA19.txt
+Processing file: CRD3_TN29.txt
+Processing file: CRD3_TX9079.txt
+Processing file: CRD3_MI50.txt
+Processing file: CRD3_AL07.txt
+Processing file: CRD3_MD34.txt
+Processing file: CRD3_MS27.txt
+Processing file: CRD3_TN15.txt
+Processing file: CRD3_TN51.txt
+Processing file: CRD3_AZ26.txt
+Processing file: CRD3_NC51.txt
+Processing file: CRD3_OR18.txt
+Processing file: CRD3_CA51.txt
+Processing file: CRD3_FL43.txt
+Processing file: CRD3_WI24.txt
+Processing file: CRD3_FL31.txt
+Processing file: CRD3_PA06.txt
+Processing file: CRD3_NC37.txt
+Processing file: CRD3_IN48.txt
+Processing file: CRD3_TX9011.txt
+Processing file: CRD3_UT16.txt
+Processing file: CRD3_CA9015.txt
+Processing file: CRD3_CO22.txt
+Processing file: CRD3_KY15.txt
+Processing file: CRD3_CA55.txt
+Processing file: CRD3_NV14.txt
+Processing file: CRD3_FL21.txt
+Processing file: CRD3_CA9046.txt
+Processing file: CRD3_CA49.txt
+Processing file: CRD3_MO29.txt
+Processing file: CRD3_TX9086.txt
+Processing file: CRD3_VA37.txt
+Processing file: CRD3_IN31.txt
+Processing file: CRD3_WY01.txt
+Processing file: CRD3_CA9001.txt
+Processing file: CRD3_AL32.txt
+Processing file: CRD3_CA88.txt
+Processing file: CRD3_LA07.txt
+Processing file: CRD3_NJ49.txt
+Processing file: CRD3_CA54.txt
+Processing file: CRD3_CA9077.txt
+Processing file: CRD3_CA9098.txt
+Processing file: CRD3_TX36.txt
+Processing file: CRD3_NV11.txt
+Processing file: CRD3_NY9018.txt
+Processing file: CRD3_LA29.txt
+Processing file: CRD3_CA9074.txt
+Processing file: CRD3_MA30.txt
+Processing file: CRD3_NY87.txt
+Processing file: CRD3_TX01.txt
+Processing file: CRD3_PA23.txt
+Processing file: CRD3_NY58.txt
+Processing file: CRD3_MS10.txt
+Processing file: CRD3_WA25.txt
+Processing file: CRD3_TX88.txt
+Processing file: CRD3_CO28.txt
+Processing file: CRD3_WI01.txt
+Processing file: CRD3_NJ21.txt
+Processing file: CRD3_IL14.txt
+Processing file: CRD3_NY9034.txt
+Processing file: CRD3_OH06.txt
+Processing file: CRD3_CA9010.txt
+Processing file: CRD3_ME10.txt
+Processing file: CRD3_VA29.txt
+Processing file: CRD3_CA9173.txt
+Processing file: CRD3_AZ44.txt
+Processing file: CRD3_CA61.txt
+Processing file: CRD3_IL49.txt
+Processing file: CRD3_NV22.txt
+Processing file: CRD3_CO30.txt
+Processing file: CRD3_TX67.txt
+Processing file: CRD3_NJ24.txt
+Processing file: CRD3_FL69.txt
+Processing file: CRD3_MS11.txt
+Processing file: CRD3_PA9011.txt
+Processing file: CRD3_DE02.txt
+Processing file: CRD3_CA9148.txt
+Processing file: CRD3_SC33.txt
+Processing file: CRD3_TX84.txt
+Processing file: CRD3_FL9060.txt
+Processing file: CRD3_KS20.txt
+Processing file: CRD3_CO25.txt
+Processing file: CRD3_MS05.txt
+Processing file: CRD3_FL87.txt
+Processing file: CRD3_NY27.txt
+Processing file: CRD3_OH9001.txt
+Processing file: CRD3_PA12.txt
+Processing file: CRD3_ME02.txt
+Processing file: CRD3_GA09.txt
+Processing file: CRD3_MS19.txt
+Processing file: CRD3_MI42.txt
+Processing file: CRD3_OK18.txt
+Processing file: CRD3_NV04.txt
+Processing file: CRD3_MA23.txt
+Processing file: CRD3_TX56.txt
+Processing file: CRD3_UT01.txt
+Processing file: CRD3_KS13.txt
+Processing file: CRD3_MN27.txt
+Processing file: CRD3_VA28.txt
+Processing file: CRD3_TX9078.txt
+Processing file: CRD3_CA9113.txt
+Processing file: CRD3_NJ33.txt
+Processing file: CRD3_AR11.txt
+Processing file: CRD3_OK32.txt
+Processing file: CRD3_TX9065.txt
+Processing file: CRD3_OR22.txt
+Processing file: CRD3_TN31.txt
+Processing file: CRD3_FL50.txt
+Processing file: CRD3_CA9072.txt
+Processing file: CRD3_MO48.txt
+Processing file: CRD3_IL43.txt
+Processing file: CRD3_MI26.txt
+Processing file: CRD3_PA78.txt
+Processing file: CRD3_NV16.txt
+Processing file: CRD3_PA02.txt
+Processing file: CRD3_TX20.txt
+Processing file: CRD3_CA9144.txt
+Processing file: CRD3_NY9019.txt
+Processing file: CRD3_MO13.txt
+Processing file: CRD3_CT09.txt
+Processing file: CRD3_MD13.txt
+Processing file: CRD3_PA31.txt
+Processing file: CRD3_MS03.txt
+Processing file: CRD3_ME05.txt
+Processing file: CRD3_WA43.txt
+Processing file: CRD3_WV09.txt
+Processing file: CRD3_MA34.txt
+Processing file: CRD3_MA02.txt
+Processing file: CRD3_CA32.txt
+Processing file: CRD3_SC05.txt
+Processing file: CRD3_CA9176.txt
+Processing file: CRD3_TX9035.txt
+Processing file: CRD3_FL9068.txt
+Processing file: CRD3_IL06.txt
+Processing file: CRD3_NY74.txt
+Processing file: CRD3_FL9053.txt
+Processing file: CRD3_TX9067.txt
+Processing file: CRD3_LA30.txt
+Processing file: CRD3_WI30.txt
+Processing file: CRD3_AK05.txt
+Processing file: CRD3_OH79.txt
+Processing file: CRD3_NC30.txt
+Processing file: CRD3_CA77.txt
+Processing file: CRD3_NJ47.txt
+Processing file: CRD3_NC73.txt
+Processing file: CRD3_CA57.txt
+Processing file: CRD3_MI00.txt
+Processing file: CRD3_CO06.txt
+Processing file: CRD3_TX9044.txt
+Processing file: CRD3_TX43.txt
+Processing file: CRD3_IL85.txt
+Processing file: CRD3_MI49.txt
+Processing file: CRD3_MI03.txt
+Processing file: CRD3_IL61.txt
+Processing file: CRD3_CA80.txt
+Processing file: CRD3_FL9009.txt
+Processing file: CRD3_ND00.txt
+Processing file: CRD3_NJ57.txt
+Processing file: CRD3_IA00.txt
+Processing file: CRD3_NH06.txt
+Processing file: CRD3_CA16.txt
+Processing file: CRD3_AR09.txt
+Processing file: CRD3_GA73.txt
+Processing file: CRD3_IN06.txt
+Processing file: CRD3_AZ23.txt
+Processing file: CRD3_CA9063.txt
+Processing file: CRD3_MI66.txt
+Processing file: CRD3_ID09.txt
+Processing file: CRD3_FL9039.txt
+Processing file: CRD3_TX41.txt
+Processing file: CRD3_VA12.txt
+Processing file: CRD3_MD07.txt
+Processing file: CRD3_NY9023.txt
+Processing file: CRD3_CA46.txt
+Processing file: CRD3_NJ62.txt
+Processing file: CRD3_OH22.txt
+Processing file: CRD3_NY41.txt
+Processing file: CRD3_TX57.txt
+Processing file: CRD3_FL65.txt
+Processing file: CRD3_PA09.txt
+Processing file: CRD3_WY04.txt
+Processing file: CRD3_NM06.txt
+Processing file: CRD3_PA59.txt
+Processing file: CRD3_AL22.txt
+Processing file: CRD3_TX9038.txt
+Processing file: CRD3_AZ32.txt
+Processing file: CRD3_IL10.txt
+Processing file: CRD3_GA35.txt
+Processing file: CRD3_AZ36.txt
+Processing file: CRD3_IL79.txt
+Processing file: CRD3_WV10.txt
+Processing file: CRD3_OK21.txt
+Processing file: CRD3_MI54.txt
+Processing file: CRD3_DE01.txt
+Processing file: CRD3_NJ35.txt
+Processing file: CRD3_CA9106.txt
+Processing file: CRD3_IL72.txt
+Processing file: CRD3_TX79.txt
+Processing file: CRD3_FL9016.txt
+Processing file: CRD3_OH14.txt
+Processing file: CRD3_FL85.txt
+Processing file: CRD3_OH39.txt
+Processing file: CRD3_IL62.txt
+Processing file: CRD3_PA01.txt
+Processing file: CRD3_NJ53.txt
+Processing file: CRD3_HI01.txt
+Processing file: CRD3_RI07.txt
+Processing file: CRD3_MI79.txt
+Processing file: CRD3_CA02.txt
+Processing file: CRD3_MD45.txt
+Processing file: CRD3_CA9058.txt
+Processing file: CRD3_WI39.txt
+Processing file: CRD3_GA63.txt
+Processing file: CRD3_IN19.txt
+Processing file: CRD3_AZ39.txt
+Processing file: CRD3_NJ37.txt
+Processing file: CRD3_AZ17.txt
+Processing file: CRD3_NY9036.txt
+Processing file: CRD3_OK33.txt
+Processing file: CRD3_IN35.txt
+Processing file: CRD3_TN37.txt
+Processing file: CRD3_NC64.txt
+Processing file: CRD3_FL9078.txt
+Processing file: CRD3_TX9008.txt
+Processing file: CRD3_FL9031.txt
+Processing file: CRD3_NY9017.txt
+Processing file: CRD3_SC32.txt
+Processing file: CRD3_NY66.txt
+Processing file: CRD3_AR12.txt
+Processing file: CRD3_TX9042.txt
+Processing file: CRD3_PA9000.txt
+Processing file: CRD3_TN30.txt
+Processing file: CRD3_CA9112.txt
+Processing file: CRD3_MS06.txt
+Processing file: CRD3_NY37.txt
+Processing file: CRD3_IN13.txt
+Processing file: CRD3_KY10.txt
+Processing file: CRD3_TX49.txt
+Processing file: CRD3_TX74.txt
+Processing file: CRD3_OH55.txt
+Processing file: CRD3_WA46.txt
+Processing file: CRD3_MN32.txt
+Processing file: CRD3_MN15.txt
+Processing file: CRD3_FL36.txt
+Processing file: CRD3_IL07.txt
+Processing file: CRD3_IA04.txt
+Processing file: CRD3_IL80.txt
+Processing file: CRD3_NC77.txt
+Processing file: CRD3_SC20.txt
+Processing file: CRD3_IL31.txt
+Processing file: CRD3_TX06.txt
+Processing file: CRD3_CA9034.txt
+Processing file: CRD3_IL45.txt
+Processing file: CRD3_IL58.txt
+Processing file: CRD3_NY14.txt
+Processing file: CRD3_TN28.txt
+Processing file: CRD3_CA9026.txt
+Processing file: CRD3_HI07.txt
+Processing file: CRD3_DE06.txt
+Processing file: CRD3_MD31.txt
+Processing file: CRD3_FL04.txt
+Processing file: CRD3_MN11.txt
+Processing file: CRD3_VA45.txt
+Processing file: CRD3_TX9058.txt
+Processing file: CRD3_MO12.txt
+Processing file: CRD3_CA9100.txt
+Processing file: CRD3_KS08.txt
+Processing file: CRD3_AZ08.txt
+Processing file: CRD3_MD32.txt
+Processing file: CRD3_AZ35.txt
+Processing file: CRD3_AL04.txt
+Processing file: CRD3_KY21.txt
+Processing file: CRD3_KS15.txt
+Processing file: CRD3_FL34.txt
+Processing file: CRD3_OH10.txt
+Processing file: CRD3_MI40.txt
+Processing file: CRD3_LA08.txt
+Processing file: CRD3_TX9061.txt
+Processing file: CRD3_VA52.txt
+Processing file: CRD3_TX48.txt
+Processing file: CRD3_TN21.txt
+Processing file: CRD3_PA64.txt
+Processing file: CRD3_MI06.txt
+Processing file: CRD3_VA54.txt
+Processing file: CRD3_IL48.txt
+Processing file: CRD3_CA9108.txt
+Processing file: CRD3_MT02.txt
+Processing file: CRD3_GA45.txt
+Processing file: CRD3_PA35.txt
+Processing file: CRD3_WV17.txt
+Processing file: CRD3_MS07.txt
+Processing file: CRD3_SC10.txt
+Processing file: CRD3_TX9002.txt
+Processing file: CRD3_OH25.txt
+Processing file: CRD3_CT20.txt
+Processing file: CRD3_WA44.txt
+Processing file: CRD3_MO03.txt
+Processing file: CRD3_FL88.txt
+Processing file: CRD3_KS21.txt
+Processing file: CRD3_FL13.txt
+Processing file: CRD3_NJ20.txt
+Processing file: CRD3_TX58.txt
+Processing file: CRD3_TX9016.txt
+Processing file: CRD3_FL49.txt
+Processing file: CRD3_NM10.txt
+Processing file: CRD3_CA30.txt
+Processing file: CRD3_VA48.txt
+Processing file: CRD3_MI58.txt
+Processing file: CRD3_TX9098.txt
+Processing file: CRD3_AK01.txt
+Processing file: CRD3_OK10.txt
+Processing file: CRD3_VT03.txt
+Processing file: CRD3_PA30.txt
+Processing file: CRD3_FL30.txt
+Processing file: CRD3_MA07.txt
+Processing file: CRD3_OH83.txt
+Processing file: CRD3_FL57.txt
+Processing file: CRD3_IL08.txt
+Processing file: CRD3_TX32.txt
+Processing file: CRD3_NY00.txt
+Processing file: CRD3_FL9044.txt
+Processing file: CRD3_TX9049.txt
+Processing file: CRD3_GA18.txt
+Processing file: CRD3_IL46.txt
+Processing file: CRD3_PA40.txt
+Processing file: CRD3_WV05.txt
+Processing file: CRD3_CA38.txt
+Processing file: CRD3_IL52.txt
+Processing file: CRD3_IL9004.txt
+Processing file: CRD3_IA08.txt
+Processing file: CRD3_OH02.txt
+Processing file: CRD3_TX12.txt
+Processing file: CRD3_IA16.txt
+Processing file: CRD3_MD25.txt
+Processing file: CRD3_MA14.txt
+Processing file: CRD3_TX00.txt
+Processing file: CRD3_MS21.txt
+Processing file: CRD3_NC20.txt
+Processing file: CRD3_MI18.txt
+Processing file: CRD3_NC65.txt
+Processing file: CRD3_CA9080.txt
+Processing file: CRD3_IL09.txt
+Processing file: CRD3_WI34.txt
+Processing file: CRD3_MS01.txt
+Processing file: CRD3_VA03.txt
+Processing file: CRD3_NY9045.txt
+Processing file: CRD3_CA40.txt
+Processing file: CRD3_TX21.txt
+Processing file: CRD3_WA07.txt
+Processing file: CRD3_KS17.txt
+Processing file: CRD3_MT06.txt
+Processing file: CRD3_TX9030.txt
+Processing file: CRD3_CO09.txt
+Processing file: CRD3_TX83.txt
+Processing file: CRD3_CA9166.txt
+Processing file: CRD3_WA35.txt
+Processing file: CRD3_CA9012.txt
+Processing file: CRD3_MO20.txt
+Processing file: CRD3_ID06.txt
+Processing file: CRD3_NY47.txt
+Processing file: CRD3_NJ41.txt
+Processing file: CRD3_NY60.txt
+Processing file: CRD3_NY67.txt
+Processing file: CRD3_GA24.txt
+Processing file: CRD3_NY9026.txt
+Processing file: CRD3_PA79.txt
+Processing file: CRD3_IL78.txt
+Processing file: CRD3_PA48.txt
+Processing file: CRD3_GA05.txt
+Processing file: CRD3_NM16.txt
+Processing file: CRD3_CA9083.txt
+Processing file: CRD3_OR12.txt
+Processing file: CRD3_CA9151.txt
+Processing file: CRD3_NY9037.txt
+Processing file: CRD3_NJ04.txt
+Processing file: CRD3_NY9043.txt
+Processing file: CRD3_NJ36.txt
+Processing file: CRD3_CA9179.txt
+Processing file: CRD3_NY9015.txt
+Processing file: CRD3_IL86.txt
+Processing file: CRD3_CA9078.txt
+Processing file: CRD3_WA50.txt
+Processing file: CRD3_NY07.txt
+Processing file: CRD3_CA9105.txt
+Processing file: CRD3_IN32.txt
+Processing file: CRD3_MO42.txt
+Processing file: CRD3_CO43.txt
+Processing file: CRD3_MA20.txt
+Processing file: CRD3_MS00.txt
+Processing file: CRD3_PA51.txt
+Processing file: CRD3_GA53.txt
+Processing file: CRD3_MI72.txt
+Processing file: CRD3_GA44.txt
+Processing file: CRD3_GA39.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,246,274,276,296,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_PA9003.txt
+Processing file: CRD3_FL76.txt
+Processing file: CRD3_ID11.txt
+Processing file: CRD3_IL82.txt
+Processing file: CRD3_IA15.txt
+Processing file: CRD3_CA20.txt
+Processing file: CRD3_UT10.txt
+Processing file: CRD3_IN26.txt
+Processing file: CRD3_AZ48.txt
+Processing file: CRD3_NY9053.txt
+Processing file: CRD3_GA36.txt
+Processing file: CRD3_OR03.txt
+Processing file: CRD3_UT17.txt
+Processing file: CRD3_FL03.txt
+Processing file: CRD3_CA9118.txt
+Processing file: CRD3_IL04.txt
+Processing file: CRD3_NJ25.txt
+Processing file: CRD3_OH28.txt
+Processing file: CRD3_CA9054.txt
+Processing file: CRD3_NE00.txt
+Processing file: CRD3_OR25.txt
+Processing file: CRD3_MA16.txt
+Processing file: CRD3_FL9080.txt
+Processing file: CRD3_TX9024.txt
+Processing file: CRD3_MO22.txt
+Processing file: CRD3_KY16.txt
+Processing file: CRD3_NY51.txt
+Processing file: CRD3_MI73.txt
+Processing file: CRD3_NJ60.txt
+Processing file: CRD3_MA10.txt
+Processing file: CRD3_KS16.txt
+Processing file: CRD3_AZ07.txt
+Processing file: CRD3_CA17.txt
+Processing file: CRD3_MT03.txt
+Processing file: CRD3_NY15.txt
+Processing file: CRD3_CA9064.txt
+Processing file: CRD3_PA11.txt
+Processing file: CRD3_TX9028.txt
+Processing file: CRD3_NV17.txt
+Processing file: CRD3_VA42.txt
+Processing file: CRD3_IA06.txt
+Processing file: CRD3_GA13.txt
+Processing file: CRD3_WV01.txt
+Processing file: CRD3_NY59.txt
+Processing file: CRD3_PA9004.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CA78.txt
+Processing file: CRD3_CA9033.txt
+Processing file: CRD3_LA04.txt
+Processing file: CRD3_IL24.txt
+Processing file: CRD3_NY9003.txt
+Processing file: CRD3_PA58.txt
+Processing file: CRD3_FL9000.txt
+Processing file: CRD3_MI15.txt
+Processing file: CRD3_SC13.txt
+Processing file: CRD3_CA9011.txt
+Processing file: CRD3_WA00.txt
+Processing file: CRD3_AR19.txt
+Processing file: CRD3_OH11.txt
+Processing file: CRD3_NV07.txt
+Processing file: CRD3_CT27.txt
+Processing file: CRD3_MI70.txt
+Processing file: CRD3_TX78.txt
+Processing file: CRD3_AL11.txt
+Processing file: CRD3_CA9019.txt
+Processing file: CRD3_TX9017.txt
+Processing file: CRD3_KS04.txt
+Processing file: CRD3_CA9189.txt
+Processing file: CRD3_WI14.txt
+Processing file: CRD3_MS14.txt
+Processing file: CRD3_NE06.txt
+Processing file: CRD3_NY84.txt
+Processing file: CRD3_FL40.txt
+Processing file: CRD3_VA17.txt
+Processing file: CRD3_NY02.txt
+Processing file: CRD3_VA13.txt
+Processing file: CRD3_AL21.txt
+Processing file: CRD3_GA71.txt
+Processing file: CRD3_IN33.txt
+Processing file: CRD3_TX05.txt
+Processing file: CRD3_NJ06.txt
+Processing file: CRD3_MA45.txt
+Processing file: CRD3_IA05.txt
+Processing file: CRD3_KS01.txt
+Processing file: CRD3_TX9020.txt
+Processing file: CRD3_OK09.txt
+Processing file: CRD3_CT21.txt
+Processing file: CRD3_NC34.txt
+Processing file: CRD3_TN39.txt
+Processing file: CRD3_MI24.txt
+Processing file: CRD3_NC60.txt
+Processing file: CRD3_OK31.txt
+Processing file: CRD3_OR11.txt
+Processing file: CRD3_CA9145.txt
+Processing file: CRD3_NC15.txt
+Processing file: CRD3_MO15.txt
+Processing file: CRD3_IL9006.txt
+Processing file: CRD3_NC06.txt
+Processing file: CRD3_TN40.txt
+Processing file: CRD3_NJ26.txt
+Processing file: CRD3_CA25.txt
+Processing file: CRD3_SD02.txt
+Processing file: CRD3_CA14.txt
+Processing file: CRD3_MI61.txt
+Processing file: CRD3_GA64.txt
+Processing file: CRD3_CA9203.txt
+Processing file: CRD3_OH73.txt
+Processing file: CRD3_UT13.txt
+Processing file: CRD3_CA9212.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,145,149,174,195,199,201,226,251,276,293,296,297,298,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,251,274,295,299,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,124,145,149,170,174,176,195,226,245,249,271,276,299,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,124,126,149,151,170,195,199,220,224,226,246,249,251,274,276,299,318,321,322,323,324,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,249,276,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (124,145,151,174,224,249,251,270,274,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (199,220,224,226,245,249,251,274,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CA01.txt
+Processing file: CRD3_FL9004.txt
+Processing file: CRD3_CA9020.txt
+Processing file: CRD3_TX19.txt
+Processing file: CRD3_IA09.txt
+Processing file: CRD3_TX9040.txt
+Processing file: CRD3_CA9021.txt
+Processing file: CRD3_MD04.txt
+Processing file: CRD3_OH76.txt
+Processing file: CRD3_PA14.txt
+Processing file: CRD3_KY00.txt
+Processing file: CRD3_OH58.txt
+Processing file: CRD3_NC50.txt
+Processing file: CRD3_CO01.txt
+Processing file: CRD3_MO23.txt
+Processing file: CRD3_CA9159.txt
+Processing file: CRD3_IL40.txt
+Processing file: CRD3_PA69.txt
+Processing file: CRD3_MD22.txt
+Processing file: CRD3_NY9031.txt
+Processing file: CRD3_KY23.txt
+Processing file: CRD3_NY61.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,149,170,174,176,196,201,220,221,226,243,245,246,247,248,251,252,253,268,271,272,273,276,277,278,293,296,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,174,195,199,224,251,274,296,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,249,271,296,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,149,170,174,224,246,251,268,271,272,273,277,278,293,296,297,298,301,302,303) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,145,149,174,176,196,201,221,224,226,246,249,251,271,276,295,296,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,149,170,199,220,224,249,251,276,295,296,299,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145,199,249,251,274,276,296,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (149,195,196,199,220,224,246,251,276,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_TX9051.txt
+Processing file: CRD3_FL25.txt
+Processing file: CRD3_AR18.txt
+Processing file: CRD3_OK01.txt
+Processing file: CRD3_MA29.txt
+Processing file: CRD3_PR04.txt
+Processing file: CRD3_PA42.txt
+Processing file: CRD3_AL10.txt
+Processing file: CRD3_NY9014.txt
+Processing file: CRD3_NM12.txt
+Processing file: CRD3_MA33.txt
+Processing file: CRD3_PA05.txt
+Processing file: CRD3_TX9099.txt
+Processing file: CRD3_KY24.txt
+Processing file: CRD3_NJ19.txt
+Processing file: CRD3_MD06.txt
+Processing file: CRD3_OH35.txt
+Processing file: CRD3_AR21.txt
+Processing file: CRD3_MN30.txt
+Processing file: CRD3_CA79.txt
+Processing file: CRD3_GA00.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,101,120,121,126,145,146,149,151,170,171,174,176,196,201,221,224,226,249,251,271,274,276,293,296,297,298,299,301,302,303,318,321,322,323,324,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,245) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,220,245,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_KS05.txt
+Processing file: CRD3_AR03.txt
+Processing file: CRD3_CA9071.txt
+Processing file: CRD3_NC14.txt
+Processing file: CRD3_NM02.txt
+Processing file: CRD3_NH00.txt
+Processing file: CRD3_NY85.txt
+Processing file: CRD3_FL70.txt
+Processing file: CRD3_CA9127.txt
+Processing file: CRD3_AL08.txt
+Processing file: CRD3_SC23.txt
+Processing file: CRD3_NC21.txt
+Processing file: CRD3_NJ08.txt
+Processing file: CRD3_TN18.txt
+Processing file: CRD3_PA9009.txt
+Processing file: CRD3_DE00.txt
+Processing file: CRD3_CT12.txt
+Processing file: CRD3_MO00.txt
+Processing file: CRD3_CA9023.txt
+Processing file: CRD3_OH64.txt
+Processing file: CRD3_TX9013.txt
+Processing file: CRD3_AZ18.txt
+Processing file: CRD3_PA28.txt
+Processing file: CRD3_MD28.txt
+Processing file: CRD3_ID01.txt
+Processing file: CRD3_GA77.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,120,121,124,126,145,146,149,151) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,146,149,151) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_MD38.txt
+Processing file: CRD3_MA37.txt
+Processing file: CRD3_IN02.txt
+Processing file: CRD3_IN15.txt
+Processing file: CRD3_CA9068.txt
+Processing file: CRD3_NY36.txt
+Processing file: CRD3_IN50.txt
+Processing file: CRD3_DC02.txt
+Processing file: CRD3_CA63.txt
+Processing file: CRD3_PA70.txt
+Processing file: CRD3_MN12.txt
+Processing file: CRD3_IA10.txt
+Processing file: CRD3_NY72.txt
+Processing file: CRD3_AL39.txt
+Processing file: CRD3_CA9017.txt
+Processing file: CRD3_OR13.txt
+Processing file: CRD3_GA28.txt
+Processing file: CRD3_WA08.txt
+Processing file: CRD3_OH20.txt
+Processing file: CRD3_NC01.txt
+Processing file: CRD3_NE07.txt
+Processing file: CRD3_CA9165.txt
+Processing file: CRD3_WI12.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (249,251,276,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (276,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,101,120,124,126,145,149,151,170,174,176,195,199,201,220,224,226,243,245,246,247,248,249,251,252,253,268,270,271,272,273,274,276,277,278,293,295,296,297,298,299,301,302,303,318,320,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (295,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (224,270,295,301,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,274,295,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (295,301,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,274,295,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (274,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CT17.txt
+Processing file: CRD3_MN31.txt
+Processing file: CRD3_FL9030.txt
+Processing file: CRD3_NY75.txt
+Processing file: CRD3_CA9172.txt
+Processing file: CRD3_CA9038.txt
+Processing file: CRD3_PA82.txt
+Processing file: CRD3_IL64.txt
+Processing file: CRD3_SC08.txt
+Processing file: CRD3_CA9066.txt
+Processing file: CRD3_AL27.txt
+Processing file: CRD3_CA47.txt
+Processing file: CRD3_FL89.txt
+Processing file: CRD3_CA9092.txt
+Processing file: CRD3_VT05.txt
+Processing file: CRD3_NY9021.txt
+Processing file: CRD3_IL16.txt
+Processing file: CRD3_MD44.txt
+Processing file: CRD3_LA21.txt
+Processing file: CRD3_IA19.txt
+Processing file: CRD3_IL50.txt
+Processing file: CRD3_OR33.txt
+Processing file: CRD3_CT24.txt
+Processing file: CRD3_IL47.txt
+Processing file: CRD3_GA02.txt
+Processing file: CRD3_PA63.txt
+Processing file: CRD3_NE02.txt
+Processing file: CRD3_MD37.txt
+Processing file: CRD3_NC41.txt
+Processing file: CRD3_PA24.txt
+Processing file: CRD3_WA40.txt
+Processing file: CRD3_MI69.txt
+Processing file: CRD3_MO37.txt
+Processing file: CRD3_TN25.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (226,249,251,271,276,296,299,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,224,246,251,271,274,276,295,296,299,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,174,199,221,249,271,276,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,251,271,296,299,301,323) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,220,226,251,274,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,251,274,296,299,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,249,271,274,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,224,226,249,251,268,272,273,277,278,293,297,298,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,195,224,249,274,276,299,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,226,245,270,274,276) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,151,195,201,226,246,249,251,271,276,296,299,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_WI19.txt
+Processing file: CRD3_FL9043.txt
+Processing file: CRD3_TX47.txt
+Processing file: CRD3_CO12.txt
+Processing file: CRD3_WA16.txt
+Processing file: CRD3_IN04.txt
+Processing file: CRD3_MO35.txt
+Processing file: CRD3_NY34.txt
+Processing file: CRD3_MO18.txt
+Processing file: CRD3_TX62.txt
+Processing file: CRD3_CA9005.txt
+Processing file: CRD3_PA87.txt
+Processing file: CRD3_MI78.txt
+Processing file: CRD3_CA9008.txt
+Processing file: CRD3_TX9019.txt
+Processing file: CRD3_SC04.txt
+Processing file: CRD3_NC45.txt
+Processing file: CRD3_MS20.txt
+Processing file: CRD3_MI33.txt
+Processing file: CRD3_MI13.txt
+Processing file: CRD3_OH75.txt
+Processing file: CRD3_CA9146.txt
+Processing file: CRD3_CA9117.txt
+Processing file: CRD3_TX9034.txt
+Processing file: CRD3_NC42.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,224,246,249,276,296,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,221,224,226,246,271,274,299,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,145,149,170,174,195,199,201,220,224,226,246,249,251,271,274,276,293,295,297,298,301,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,224,245,246,249,251,271,274,276,295,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,220,245,249,274,295,296,299,301,320,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,249,251,276,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,249,251,296,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,224,249,271,276,296,301,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,149,170,174,195,199,201,221,224,226,246,249,251,271,274,276,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,245,249,271,276,296,301,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,149,176,221,246,251,270,271,276,293,297,298,301,302,303,318,320,322,323,324,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,126,145,174,195,199,224,226,246,251,271,276,296,299,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (221,224,246,251,268,271,272,273,276,277,278,293,297,298,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,251,276,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,276,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,220,224,249,276,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_PA16.txt
+Processing file: CRD3_SD00.txt
+Processing file: CRD3_KY19.txt
+Processing file: CRD3_CA11.txt
+Processing file: CRD3_ID07.txt
+Processing file: CRD3_CA9137.txt
+Processing file: CRD3_CA9122.txt
+Processing file: CRD3_CO19.txt
+Processing file: CRD3_KY31.txt
+Processing file: CRD3_LA35.txt
+Processing file: CRD3_FL46.txt
+Processing file: CRD3_WA18.txt
+Processing file: CRD3_FL9073.txt
+Processing file: CRD3_FL05.txt
+Processing file: CRD3_CO00.txt
+Processing file: CRD3_TN44.txt
+Processing file: CRD3_WA55.txt
+Processing file: CRD3_MI71.txt
+Processing file: CRD3_VA01.txt
+Processing file: CRD3_OR08.txt
+Processing file: CRD3_MS16.txt
+Processing file: CRD3_NV15.txt
+Processing file: CRD3_PA25.txt
+Processing file: CRD3_ID05.txt
+Processing file: CRD3_OH78.txt
+Processing file: CRD3_OR04.txt
+Processing file: CRD3_AL38.txt
+Processing file: CRD3_CA15.txt
+Processing file: CRD3_SC30.txt
+Processing file: CRD3_TX04.txt
+Processing file: CRD3_MD27.txt
+Processing file: CRD3_GA17.txt
+Processing file: CRD3_WI42.txt
+Processing file: CRD3_CA56.txt
+Processing file: CRD3_KY25.txt
+Processing file: CRD3_NY56.txt
+Processing file: CRD3_TX9081.txt
+Processing file: CRD3_VA51.txt
+Processing file: CRD3_GA70.txt
+Processing file: CRD3_MI44.txt
+Processing file: CRD3_CA9190.txt
+Processing file: CRD3_UT12.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,245,270,295,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,220,245,270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,270,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,195,245,251,270,276,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145,245) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,126,145,151,220,245,299,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145,170,195,220,251,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,220,245,270,295,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,245,270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,101,145,151,170,176,195,220,224,226,245,249,251,274,276,295,296,299,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_AR20.txt
+Processing file: CRD3_NH05.txt
+Processing file: CRD3_IL51.txt
+Processing file: CRD3_VA10.txt
+Processing file: CRD3_CA05.txt
+Processing file: CRD3_TX9023.txt
+Processing file: CRD3_OH50.txt
+Processing file: CRD3_PA07.txt
+Processing file: CRD3_NY20.txt
+Processing file: CRD3_NM09.txt
+Processing file: CRD3_IL59.txt
+Processing file: CRD3_IL13.txt
+Processing file: CRD3_NC47.txt
+Processing file: CRD3_GA16.txt
+Processing file: CRD3_IL17.txt
+Processing file: CRD3_PA46.txt
+Processing file: CRD3_NC17.txt
+Processing file: CRD3_NY69.txt
+Processing file: CRD3_MS09.txt
+Processing file: CRD3_TX9102.txt
+Processing file: CRD3_FL9054.txt
+Processing file: CRD3_TX9094.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (101) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,101) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_NC31.txt
+Processing file: CRD3_WY02.txt
+Processing file: CRD3_CA22.txt
+Processing file: CRD3_AZ14.txt
+Processing file: CRD3_TX9039.txt
+Processing file: CRD3_AZ42.txt
+Processing file: CRD3_NY30.txt
+Processing file: CRD3_MI84.txt
+Processing file: CRD3_VA50.txt
+Processing file: CRD3_NY26.txt
+Processing file: CRD3_LA34.txt
+Processing file: CRD3_IA14.txt
+Processing file: CRD3_VA25.txt
+Processing file: CRD3_NM08.txt
+Processing file: CRD3_AR13.txt
+Processing file: CRD3_NJ23.txt
+Processing file: CRD3_CA9196.txt
+Processing file: CRD3_WV06.txt
+Processing file: CRD3_CA9040.txt
+Processing file: CRD3_GA34.txt
+Processing file: CRD3_NJ15.txt
+Processing file: CRD3_FL00.txt
+Processing file: CRD3_MA36.txt
+Processing file: CRD3_GA50.txt
+Processing file: CRD3_TX14.txt
+Processing file: CRD3_AZ33.txt
+Processing file: CRD3_VA22.txt
+Processing file: CRD3_FL9037.txt
+Processing file: CRD3_NY73.txt
+Processing file: CRD3_PR05.txt
+Processing file: CRD3_TX9015.txt
+Processing file: CRD3_SD05.txt
+Processing file: CRD3_NY9038.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,145,146,149) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,124,145,149) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_AR07.txt
+Processing file: CRD3_MD29.txt
+Processing file: CRD3_IL69.txt
+Processing file: CRD3_CA65.txt
+Processing file: CRD3_MD19.txt
+Processing file: CRD3_CA9170.txt
+Processing file: CRD3_OK06.txt
+Processing file: CRD3_FL56.txt
+Processing file: CRD3_VA57.txt
+Processing file: CRD3_AK00.txt
+Processing file: CRD3_IN34.txt
+Processing file: CRD3_UT04.txt
+Processing file: CRD3_CA9025.txt
+Processing file: CRD3_FL75.txt
+Processing file: CRD3_CT18.txt
+Processing file: CRD3_MO02.txt
+Processing file: CRD3_FL67.txt
+Processing file: CRD3_MN33.txt
+Processing file: CRD3_NJ16.txt
+Processing file: CRD3_MO25.txt
+Processing file: CRD3_TN52.txt
+Processing file: CRD3_NY77.txt
+Processing file: CRD3_MN13.txt
+Processing file: CRD3_AL26.txt
+Processing file: CRD3_WA47.txt
+Processing file: CRD3_MD20.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,145,170,174,176,195,196,199,201,221,224,246,249,251,268,271,272,273,276,277,278,293,297,298,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,170,221,246,251,268,271,272,273,274,276,277,278,293,296,297,298,299,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,246,271,274,276,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,226,249,271,276,299,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (274,276,299,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,199,276,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,220,245,249,274,276,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,249,271,274,276,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (249,276,296,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,149,249,251,271,296,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,249,271,274,276,293,296,297,298,299,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,199,201,221,224,226,246,271,276,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,276,296,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,124,145,149,170,174,196,201,221,226,246,251,268,271,272,273,276,277,278,293,295,297,298,301,302,303,318,321,322,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,224,245,251,271,276,296,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,170,171,174,195,199,201,221,226,246,249,251,274,276,293,296,297,298,299,301,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CA9009.txt
+Processing file: CRD3_AR16.txt
+Processing file: CRD3_CA9030.txt
+Processing file: CRD3_FL9022.txt
+Processing file: CRD3_CT03.txt
+Processing file: CRD3_CA9210.txt
+Processing file: CRD3_SD04.txt
+Processing file: CRD3_IA22.txt
+Processing file: CRD3_CA09.txt
+Processing file: CRD3_AL06.txt
+Processing file: CRD3_NC19.txt
+Processing file: CRD3_TX9075.txt
+Processing file: CRD3_NC25.txt
+Processing file: CRD3_DC03.txt
+Processing file: CRD3_NY10.txt
+Processing file: CRD3_FL9012.txt
+Processing file: CRD3_NC52.txt
+Processing file: CRD3_WA52.txt
+Processing file: CRD3_CA9162.txt
+Processing file: CRD3_WA24.txt
+Processing file: CRD3_ME13.txt
+Processing file: CRD3_UT07.txt
+Processing file: CRD3_CA9035.txt
+Processing file: CRD3_PA00.txt
+Processing file: CRD3_WA32.txt
+Processing file: CRD3_VA20.txt
+Processing file: CRD3_NJ07.txt
+Processing file: CRD3_WA57.txt
+Processing file: CRD3_ID02.txt
+Processing file: CRD3_NC61.txt
+Processing file: CRD3_MI29.txt
+Processing file: CRD3_MI20.txt
+Processing file: CRD3_GA48.txt
+Processing file: CRD3_VA36.txt
+Processing file: CRD3_MI23.txt
+Processing file: CRD3_MD08.txt
+Processing file: CRD3_UT06.txt
+Processing file: CRD3_DE05.txt
+Processing file: CRD3_WA13.txt
+Processing file: CRD3_LA20.txt
+Processing file: CRD3_MI36.txt
+Processing file: CRD3_NY9042.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,121,124,145,146,149) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,99,101,120,121,124,126,145,149,151) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,124,145,149) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_NY40.txt
+Processing file: CRD3_NC39.txt
+Processing file: CRD3_FL9024.txt
+Processing file: CRD3_MT07.txt
+Processing file: CRD3_AL15.txt
+Processing file: CRD3_NY9009.txt
+Processing file: CRD3_NJ63.txt
+Processing file: CRD3_OH89.txt
+Processing file: CRD3_NC69.txt
+Processing file: CRD3_CT01.txt
+Processing file: CRD3_PA76.txt
+Processing file: CRD3_OH09.txt
+Processing file: CRD3_MS15.txt
+Processing file: CRD3_IL56.txt
+Processing file: CRD3_CO38.txt
+Processing file: CRD3_WI16.txt
+Processing file: CRD3_AZ46.txt
+Processing file: CRD3_CT10.txt
+Processing file: CRD3_CA9116.txt
+Processing file: CRD3_MD24.txt
+Processing file: CRD3_FL9026.txt
+Processing file: CRD3_FL44.txt
+Processing file: CRD3_MI47.txt
+Processing file: CRD3_AZ43.txt
+Processing file: CRD3_CO41.txt
+Processing file: CRD3_MD00.txt
+Processing file: CRD3_OH44.txt
+Processing file: CRD3_AK04.txt
+Processing file: CRD3_PA36.txt
+Processing file: CRD3_MO45.txt
+Processing file: CRD3_GA04.txt
+Processing file: CRD3_AL34.txt
+Processing file: CRD3_NV12.txt
+Processing file: CRD3_CA9014.txt
+Processing file: CRD3_NY83.txt
+Processing file: CRD3_ND02.txt
+Processing file: CRD3_NH04.txt
+Processing file: CRD3_MS04.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,274,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,245,270,295,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,170,176,195,220,221,245,251,271,274,276,295,296,299,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,270,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,195,199,201,224,226,245,246,249,251,271,274,276,293,296,297,298,299,301,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,245,270,274,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,220,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,245,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,245,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,245,276,299,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,249,271,274,296,299,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,245,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,270,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,101,120,124,126,145,146,149,151,170,171,174,195,196,199,201,220,221,224,245,246,249,251,274,276,293,295,296,297,298,299,302,303,318,321,322,323,324,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,295,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,295,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,274,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,245,270,295,299,301,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,299,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_AL18.txt
+Processing file: CRD3_NE12.txt
+Processing file: CRD3_SC06.txt
+Processing file: CRD3_WI10.txt
+Processing file: CRD3_FL9051.txt
+Processing file: CRD3_CO32.txt
+Processing file: CRD3_CA9169.txt
+Processing file: CRD3_TX72.txt
+Processing file: CRD3_PA45.txt
+Processing file: CRD3_NY01.txt
+Processing file: CRD3_KS06.txt
+Processing file: CRD3_UT19.txt
+Processing file: CRD3_CA9134.txt
+Processing file: CRD3_CO17.txt
+Processing file: CRD3_WV14.txt
+Processing file: CRD3_SD03.txt
+Processing file: CRD3_NY81.txt
+Processing file: CRD3_TX9056.txt
+Processing file: CRD3_IN44.txt
+Processing file: CRD3_MN22.txt
+Processing file: CRD3_WI18.txt
+Processing file: CRD3_PA81.txt
+Processing file: CRD3_CO33.txt
+Processing file: CRD3_OH57.txt
+Processing file: CRD3_MO41.txt
+Processing file: CRD3_TN38.txt
+Processing file: CRD3_IN08.txt
+Processing file: CRD3_TN32.txt
+Processing file: CRD3_GA23.txt
+Processing file: CRD3_CA9204.txt
+Processing file: CRD3_IN21.txt
+Processing file: CRD3_MI53.txt
+Processing file: CRD3_NY9007.txt
+Processing file: CRD3_MO14.txt
+Processing file: CRD3_LA33.txt
+Processing file: CRD3_NE04.txt
+Processing file: CRD3_NY38.txt
+Processing file: CRD3_FL20.txt
+Processing file: CRD3_NJ02.txt
+Processing file: CRD3_FL79.txt
+Processing file: CRD3_NY44.txt
+Processing file: CRD3_WV03.txt
+Processing file: CRD3_CA43.txt
+Processing file: CRD3_CA9182.txt
+Processing file: CRD3_MI45.txt
+Processing file: CRD3_WI04.txt
+Processing file: CRD3_IL12.txt
+Processing file: CRD3_CO02.txt
+Processing file: CRD3_FL9028.txt
+Processing file: CRD3_KS19.txt
+Processing file: CRD3_CA9090.txt
+Processing file: CRD3_NC09.txt
+Processing file: CRD3_NY9000.txt
+Processing file: CRD3_VA53.txt
+Processing file: CRD3_IN11.txt
+Processing file: CRD3_CA9084.txt
+Processing file: CRD3_OH56.txt
+Processing file: CRD3_TN22.txt
+Processing file: CRD3_WA23.txt
+Processing file: CRD3_OK27.txt
+Processing file: CRD3_CA9003.txt
+Processing file: CRD3_VA19.txt
+Processing file: CRD3_IL42.txt
+Processing file: CRD3_WA12.txt
+Processing file: CRD3_MO04.txt
+Processing file: CRD3_NV02.txt
+Processing file: CRD3_GA59.txt
+Processing file: CRD3_LA05.txt
+Processing file: CRD3_FL18.txt
+Processing file: CRD3_MN09.txt
+Processing file: CRD3_VA08.txt
+Processing file: CRD3_NC68.txt
+Processing file: CRD3_OH07.txt
+Processing file: CRD3_MA38.txt
+Processing file: CRD3_NC44.txt
+Processing file: CRD3_CA03.txt
+Processing file: CRD3_WI08.txt
+Processing file: CRD3_FL9072.txt
+Processing file: CRD3_OK07.txt
+Processing file: CRD3_IL88.txt
+Processing file: CRD3_NY39.txt
+Processing file: CRD3_MI76.txt
+Processing file: CRD3_FL84.txt
+Processing file: CRD3_VA16.txt
+Processing file: CRD3_CA83.txt
+Processing file: CRD3_AL36.txt
+Processing file: CRD3_IN47.txt
+Processing file: CRD3_CA9130.txt
+Processing file: CRD3_TX59.txt
+Processing file: CRD3_FL74.txt
+Processing file: CRD3_NY9005.txt
+Processing file: CRD3_CA9147.txt
+Processing file: CRD3_IL19.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,270,274,295,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,295,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,270,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,295,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (274,295,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,245,270,274,295,301,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,299,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (249,270,274,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (274,299,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,299,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,295,299,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (199,220,245,270,274,295,296,299,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,295,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,295,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,274,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,270,295,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,220,245,251,274,276,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,224,245,270,274,299,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (270,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,195,224,245,274,276,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,195,224,245,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,245,270,295,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,270,274,299,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,220,245,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,195,220,245,270,276,295,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,145,195,270,274,299,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,249,270,295,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,270) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,170,245,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (149,170,174,195,199,220,224,226,270,274,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,245,295,320,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,245,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_GA19.txt
+Processing file: CRD3_CA9088.txt
+Processing file: CRD3_IL63.txt
+Processing file: CRD3_NY64.txt
+Processing file: CRD3_NC33.txt
+Processing file: CRD3_VA46.txt
+Processing file: CRD3_CA44.txt
+Processing file: CRD3_NE08.txt
+Processing file: CRD3_AL01.txt
+Processing file: CRD3_OH05.txt
+Processing file: CRD3_AZ04.txt
+Processing file: CRD3_TN07.txt
+Processing file: CRD3_LA36.txt
+Processing file: CRD3_WA15.txt
+Processing file: CRD3_MD18.txt
+Processing file: CRD3_ME03.txt
+Processing file: CRD3_TN45.txt
+Processing file: CRD3_AL00.txt
+Processing file: CRD3_OH04.txt
+Processing file: CRD3_FL16.txt
+Processing file: CRD3_GA30.txt
+Processing file: CRD3_MI34.txt
+Processing file: CRD3_CA9153.txt
+Processing file: CRD3_NC07.txt
+Processing file: CRD3_IL9005.txt
+Processing file: CRD3_TX9004.txt
+Processing file: CRD3_PA32.txt
+Processing file: CRD3_MD41.txt
+Processing file: CRD3_FL9066.txt
+Processing file: CRD3_CA9107.txt
+Processing file: CRD3_TX71.txt
+Processing file: CRD3_TX17.txt
+Processing file: CRD3_MA28.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (118,120,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,124,145,149) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,101,118,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,124,146) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (118,120,121,122,123,126,127,128,143,145,146,147,148,151,152,153) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (118,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,118,120,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,151) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,174,195,199,220,221,224,246,271,276,296,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,120,145,170,199,221,224,273,274,276,293,296,297,298,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,121,126,145,149,151,170,171,174,176,195,196,199,201,220,221,224,226,246,249,251,271,274,276,293,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,296,299,320,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,101,121,124,145,149,151,170,174,196,199,201,220,226,245,246,249,251,276,293,296,297,298,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,96,99,101,120,124,145,146,149,151,170,171,174,176,195,196,199,201,221,223,224,243,246,247,248,251,252,253,268,271,272,273,277,278,293,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,249,270,276) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (174,195,199,220,251,271,276,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,220,224,246,251,270,301,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,220,224,245,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,149,170,174,224,246,249,251,271,276,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,170,220,249,270,274,296,299,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,195,199,220,224,226,246,251,270,271,274,276,296,301,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,174,195,224,271,276,296,299,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,120,124,126,145,170,195,196,199,201,220,221,224,226,246,249,251,268,271,272,273,276,277,278,293,295,296,297,298,301,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,199,220,224,271,274,276,296) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,170,195,199,224,246,249,274,296,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_TX73.txt
+Processing file: CRD3_CO42.txt
+Processing file: CRD3_KY12.txt
+Processing file: CRD3_CA9073.txt
+Processing file: CRD3_IN30.txt
+Processing file: CRD3_FL19.txt
+Processing file: CRD3_IL38.txt
+Processing file: CRD3_TN24.txt
+Processing file: CRD3_MI25.txt
+Processing file: CRD3_FL39.txt
+Processing file: CRD3_FL9076.txt
+Processing file: CRD3_IN27.txt
+Processing file: CRD3_TX9021.txt
+Processing file: CRD3_SC34.txt
+Processing file: CRD3_WA39.txt
+Processing file: CRD3_CO31.txt
+Processing file: CRD3_FL9067.txt
+Processing file: CRD3_CA06.txt
+Processing file: CRD3_CA9062.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,246,251,271,273,274,276,295,296,301,321,323,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CA37.txt
+Processing file: CRD3_MN29.txt
+Processing file: CRD3_NJ29.txt
+Processing file: CRD3_OK16.txt
+Processing file: CRD3_TX9029.txt
+Processing file: CRD3_TN19.txt
+Processing file: CRD3_OR17.txt
+Processing file: CRD3_VA09.txt
+Processing file: CRD3_CA9187.txt
+Processing file: CRD3_VA14.txt
+Processing file: CRD3_OR29.txt
+Processing file: CRD3_OH17.txt
+Processing file: CRD3_NV05.txt
+Processing file: CRD3_SC16.txt
+Processing file: CRD3_VA02.txt
+Processing file: CRD3_UT03.txt
+Processing file: CRD3_CA9024.txt
+Processing file: CRD3_AZ41.txt
+Processing file: CRD3_NC04.txt
+Processing file: CRD3_CA9158.txt
+Processing file: CRD3_NH02.txt
+Processing file: CRD3_TX40.txt
+Processing file: CRD3_FL78.txt
+Processing file: CRD3_AZ03.txt
+Processing file: CRD3_CA9089.txt
+Processing file: CRD3_CA9101.txt
+Processing file: CRD3_PA62.txt
+Processing file: CRD3_CA9049.txt
+Processing file: CRD3_ND03.txt
+Processing file: CRD3_CA24.txt
+Processing file: CRD3_CA9114.txt
+Processing file: CRD3_FL9070.txt
+Processing file: CRD3_OH9005.txt
+Processing file: CRD3_IN28.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,126,149,176,195,199,220,223,224,226,249,251,272,273,276,293,296,297,298,302,303,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,249,251,276,299,301,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,124,126,145,151,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,220,221,222,223,224,226,227,228,243,246,247,248,249,251,252,253,268,271,272,273,274,276,277,278,293,296,297,298,301,302,303,318,321,322,323,324,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,249,276,296,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,274,276,296,299,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (124,145,170,199,201,224,226,251,276,296,298,301,318,322,323,324,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,199,220,224,249,251,271,274,293,297,298,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,176,195,201,249,271,274,296,299,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,149,170,196,199,201,220,221,246,249,268,270,271,272,273,276,277,278,293,296,297,298,301,302,303,318,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,245,249,274,296,299,301,323,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,249,276,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,220,224,249,251,276,293,296,297,298,302,303,318,321,322,323,326,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,224,274,301,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,195,220,224,249,251,274,276,318,320,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,101,118,120,121,122,123,124,126,127,128,143,145,146,147,148,149,151,152,153,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,221,222,223,224,226,227,228,243,245,246,247,248,249,251,252,253,268,271,272,273,274,277,278,293,296,297,298,302,303,318,321,322,323,324,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,249,296,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,176,195,224,249,274,276,296,299,301,321) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,195,224,245,249,251,274,276,296,299) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,226,293,297,298,302,303) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,145,170,195,199,245,251,274,276,296,301,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,249,276,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,101,120,121,124,126,143,145,146,147,148,149,151,152,153,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,221,222,223,224,226,227,228,243,246,247,248,249,252,253,268,271,272,273,274,277,278,293,295,296,297,298,299,302,303,318,321,322,323,324,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,195,199,224,226,245,249,251,270,271,274,276,296,320,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CO44.txt
+Processing file: CRD3_NC12.txt
+Processing file: CRD3_NC71.txt
+Processing file: CRD3_KS11.txt
+Processing file: CRD3_TN46.txt
+Processing file: CRD3_CT13.txt
+Processing file: CRD3_WI46.txt
+Processing file: CRD3_MO33.txt
+Processing file: CRD3_KS18.txt
+Processing file: CRD3_NY9016.txt
+Processing file: CRD3_IN14.txt
+Processing file: CRD3_NY9041.txt
+Processing file: CRD3_NY9010.txt
+Processing file: CRD3_PA21.txt
+Processing file: CRD3_CO35.txt
+Processing file: CRD3_CA13.txt
+Processing file: CRD3_FL42.txt
+Processing file: CRD3_VA00.txt
+Processing file: CRD3_TX9083.txt
+Processing file: CRD3_TX9062.txt
+Processing file: CRD3_MS13.txt
+Processing file: CRD3_TX61.txt
+Processing file: CRD3_IN39.txt
+Processing file: CRD3_PA49.txt
+Processing file: CRD3_TX64.txt
+Processing file: CRD3_MA24.txt
+Processing file: CRD3_WV07.txt
+Processing file: CRD3_GA74.txt
+Processing file: CRD3_FL82.txt
+Processing file: CRD3_CA04.txt
+Processing file: CRD3_VA35.txt
+Processing file: CRD3_CA9061.txt
+Processing file: CRD3_CT06.txt
+Processing file: CRD3_MS12.txt
+Processing file: CRD3_NJ64.txt
+Processing file: CRD3_MS02.txt
+Processing file: CRD3_CA64.txt
+Processing file: CRD3_GA37.txt
+Processing file: CRD3_NJ28.txt
+Processing file: CRD3_MN21.txt
+Processing file: CRD3_NY82.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (99,124,145,149,151,168,170,171,172,173,174,176,177,178,193,195,196,197,198,199,201,202,203,218,220,221,222,223,226,227,228,243,246,247,248,251,252,253,268,270,271,272,273,276,277,278,293,297,298,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (149,245,249,251,271,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,149,170,174,199,224,246,270,276,299,318,321,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (120,170,224,226,246,251,268,271,272,273,276,277,278,293,297,298,301,302,303,318,322,323,327,328) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_CO14.txt
+Processing file: CRD3_OH48.txt
+Processing file: CRD3_MN08.txt
+Processing file: CRD3_TX39.txt
+Processing file: CRD3_FL9007.txt
+Processing file: CRD3_TX70.txt
+Processing file: CRD3_NJ50.txt
+Processing file: CRD3_CA9041.txt
+Processing file: CRD3_ID03.txt
+Processing file: CRD3_KY36.txt
+Processing file: CRD3_NY08.txt
+Processing file: CRD3_CT00.txt
+Processing file: CRD3_WI33.txt
+Processing file: CRD3_OH33.txt
+Processing file: CRD3_PA54.txt
+Processing file: CRD3_NC26.txt
+Processing file: CRD3_WA21.txt
+Processing file: CRD3_CA9197.txt
+Processing file: CRD3_MS26.txt
+Processing file: CRD3_TX08.txt
+Processing file: CRD3_TX9100.txt
+Processing file: CRD3_NY71.txt
+Processing file: CRD3_MD10.txt
+Processing file: CRD3_TN23.txt
+Processing file: CRD3_PA57.txt
+Processing file: CRD3_OR32.txt
+Processing file: CRD3_OH43.txt
+Processing file: CRD3_IN25.txt
+Processing file: CRD3_CA31.txt
+Processing file: CRD3_CA9168.txt
+Processing file: CRD3_CA9099.txt
+Processing file: CRD3_NY16.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,299,320,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Processing file: CRD3_LA28.txt
+Processing file: CRD3_KS00.txt
+Processing file: CRD3_NY09.txt
+Processing file: CRD3_GA06.txt
+Processing file: CRD3_FL52.txt
+Processing file: CRD3_HI10.txt
+Processing file: CRD3_IN17.txt
+Processing file: CRD3_LA03.txt
+Processing file: CRD3_PA26.txt
+Processing file: CRD3_IL20.txt
+Processing file: CRD3_PA60.txt
+Processing file: CRD3_NC66.txt
+Processing file: CRD3_DE07.txt
+Processing file: CRD3_PR00.txt
+Processing file: CRD3_OK00.txt
+Processing file: CRD3_CA33.txt
+Processing file: CRD3_NV19.txt
+Processing file: CRD3_MN37.txt
+Processing file: CRD3_GA08.txt
+Processing file: CRD3_FL63.txt
+Processing file: CRD3_TX9074.txt
+Processing file: CRD3_FL9062.txt
+Processing file: CRD3_MS08.txt
+Processing file: CRD3_NC27.txt
+Processing file: CRD3_MI51.txt
+Processing file: CRD3_TX75.txt
+Processing file: CRD3_MO10.txt
+Processing file: CRD3_IL53.txt
+Processing file: CRD3_NH11.txt
+Processing file: CRD3_NC72.txt
+Processing file: CRD3_OK30.txt
+Processing file: CRD3_KY22.txt
+Processing file: CRD3_TX31.txt
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,245,270,274,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,245,249,274,276,295,296,321,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,224,245,295,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,220,245,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,295,301) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,195,226,245,249,274,276,295,296,299,301,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,170,195,226,245,274,276,299,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,195,270,299,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,176,195,220,245,270,276,295,299,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (195,245,295) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,99,101,120,124,145,149,170,195,199,201,220,224,226,245,246,249,270,274,276,295,301,320,321,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,126,170,176,195,201,220,226,245,251,274,299,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,320,324) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,170,195,220,245) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,270,320,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,145,170,195,224,249,299,320) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,195,201,224,226,251,274,295,299,301,321,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (220,245,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (145,170,195,220,245,299,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,145,170,199,220,224,226,245,249,251,270,296,299,301,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (95,120,220,245,270,320,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (170,220,245,270,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+/afs/.ir/users/z/q/zqian1/anaconda3/envs/conda_envpython3.6/lib/python3.6/site-packages/joblib/_parallel_backends.py:350: DtypeWarning: Columns (245,270,324,326) have mixed types. Specify dtype option on import or set low_memory=False.
+  return self.func(*args, **kwargs)
+Time elapsed (in seconds): 19166.051886558533
