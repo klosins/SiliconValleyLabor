@@ -24,9 +24,10 @@ setwd(here::here("RawData"))
 #=========
 # 0. 3 Importing data
 #=========
-patent <- fread("invpat_full_disambiguation.csv")
+patent <- fread("invpat_full_disambiguation_cityname_cleaned.csv")#fread("invpat_full_disambiguation.csv")
 colnames(patent) <- tolower(colnames(patent)) # make all the columns lower case
-infutor <- fread("full_DI.csv")
+infutor <- fread("full_DI_2.csv")#fread("full_DI.csv")
+
 
 #========================
 # Section 1:  Cleaning patent and infutor data  
