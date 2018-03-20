@@ -9,14 +9,20 @@
 # 0.1 Import Packages
 #=========
 library(data.table)
+library(devtools)
 library(dplyr)
+library(doParallel)
+library(doMPI)
+library(doSNOW)
+library(foreach)
 library(here)
 library(ggplot2)
 library(lubridate)
+library(parallel)
+library(Rmpi) # how to install found here http://www.stats.uwo.ca/faculty/yu/Rmpi/mac_os_x.htm
 library(stringr)
-library(xtable)
 library(tidyverse)
-
+library(xtable)
 
 #=========
 # 0. 2 Importing data
@@ -28,11 +34,16 @@ i <- "JO"
 patent <- fread(paste0("/Volumes/Seagate Backup Plus Drive/patent/data/", i, "/patent_", i,".csv"))
 last_names <- unique(patent[,(name_last_clean)])
 
-infutor_address <- fread(paste0("/Volumes/Seagate Backup Plus Drive/infutor_1perc/data/address_csv/",
-                                i, "/", i,"_address.csv"))
+infutor_address <- fread(paste0("/Volumes/Seagate Backup Plus Drive/infutor_1perc/data/address_cleaned/",
+                                i,"_address_cleaned.csv"))
 infutor_name <- fread(paste0("/Volumes/Seagate Backup Plus Drive/infutor_1perc/data/name_csv/",
                              i,"/",i,"_name.csv"), 
                       colClasses = list(character=c(18, 22)))
+
+# to avoid problems when merging 
+good_colnames_infutor_address <-  c("pid",colnames(infutor_address)[(!colnames(infutor_address) %in% 
+                                                                       colnames(infutor_name))])
+infutor_address <- infutor_address[,good_colnames_infutor_address, with = FALSE]
 infutor_name <- infutor_name[alias_num == 1,]
 infutor <- merge(infutor_address, infutor_name, by = "pid" )
 #subsetting infutor to only our last names of interest                      
@@ -248,9 +259,12 @@ patent_many_match <- patent_many_match[!(unique_inventor_id_new %in%
 
 crosswalk <- unique(patent_one_match[,.(unique_inventor_id_new, pid_new)])
 
-end_time <- proc.time()
+fwrite(crosswalk, paste0("/Volumes/Seagate Backup Plus Drive/infutor_1perc/crosswalk/",
+             i,"crosswalk.csv"))
 
 
-fwrite(crosswalk, "crosswalk.csv")
+
+#bebe <- patent[unique_inventor_id_new == "04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1-04030779-1",]
+
 
 
